@@ -1,0 +1,238 @@
+ul {
+    width: 40%;
+
+    display: inline-flex;
+    margin-right: 3%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ul li {
+
+    font-weight: bolder;
+
+}
+ul li a{
+    text-decoration: underline 0.3em;
+    text-decoration-color: transparent;
+    text-underline-offset: 0.01em;
+    transition: text-decoration-color 200ms,text-underline-offset 500ms;
+}
+ul li a:focus,ul li a:hover
+{
+    text-underline-offset: 0.37em;
+    text-decoration-color: rgb(245, 92, 75,2);
+}
+header{
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    z-index: 3;
+}
+section {
+    position: relative;
+}
+
+.intro-section {
+    height: 50em;
+}
+
+nav {
+    background-color: black;
+    top: 0;
+    margin-top: 3%;
+    display: inline-flex;
+    height: 5%;
+    width: 100%;
+    position: fixed;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > div {
+    padding-left: 1%;
+    height: 100%;
+    width: 15%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav > div > img {
+    background-blend-mode: overlay;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100%;
+}
+nav>div h5:hover{
+    animation: rotate 1000ms ease-out;
+
+}
+@keyframes rotate {
+ 0%{transform: rotate(16deg)}
+    10%{transform: rotate(-12deg)}
+    20%{transform: rotate(10deg)}
+    30%{transform: rotate(-8deg)}
+    50%{transform: rotate(6deg)}
+    70%{transform: rotate(-4deg)}
+    90%{transform: rotate(2deg)}
+    100%{transform: rotate(0)}
+}
+
+a {
+
+    color: ghostwhite;
+}
+
+main {
+    width: 100%;
+}
+
+* {
+    margin: 0;
+
+}
+
+.para {
+    width: 100%;
+}
+
+.intro-name {
+    position: absolute;
+    color: white;
+    left: 3%;
+    top: 30%;
+    font-weight: bold;
+    font-family: "Lucida Console", serif;
+    font-size: 400%;
+
+}
+.intro-name h1 {
+    padding-top: 5%;
+}
+.intro-name a{
+    padding-top: 3%;
+    position: absolute;
+    left: 67%;
+    font-size: 40%;
+
+}
+.intro-name h6:hover{
+   transition: color 600ms ease-out;
+    color: #f86251
+}
+
+body {
+    background-color: black;
+}
+.intro-pic {
+    left: 57%;
+    width: 43%;
+    top: 12%;
+    height: 97%;
+    position: absolute;
+}
+
+.intro-pic img {
+    filter: grayscale(80%);
+    width: 100%;
+    height: 100%;
+    opacity: 8;
+}
+.intro-pic img:hover{
+    transition: opacity 1s;
+    opacity: 0;
+}
+.intro-media-logos{
+    height: 4%;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    left: 1%;
+    top: 85%;
+}
+.intro-media-logos a img{
+ filter: saturate(0);
+}
+.intro-media-logos a{
+    padding: 1%;
+    height: 100%;
+
+    border-radius: 20%;
+}
+.intro-media-logos a:hover{
+   transition: border 100ms;
+    border:2px solid #f86251 ;
+}
+.intro-media-logos a img{
+    height: 100%;
+}
+.wavy span{
+    animation: wave 1s infinite;
+    animation-delay: calc(.1s*var(--i));
+    display: inline-block;
+}
+@keyframes wave {
+    0%,40%,80%{
+        transform: translateY(0);
+    }
+    20%{
+        color: #f86251;
+        transform: translateY(-10px);
+    }
+}
+.para-2{
+font-size: 150%;
+    color: ghostwhite;
+    font-style: italic;
+    display: inline-block;
+    animation: coloring 5s infinite ease-out;
+    animation-delay: calc(.2s*var(--i1)) ;
+}
+@keyframes coloring {
+    50%{transition: color ,font-size;
+        color: #f86251;}
+
+    100%{transition: color ;
+        color: ghostwhite;}
+}
+.para-2:hover{
+    transition: color 500ms;
+    color: #f86251;
+}
+.project-section q{
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    font-weight: bold;
+}
+.project-section{
+    height: 62rem;
+}
+.project-text{
+    top: 40%;
+    position: absolute;
+    font-size: 1400%;
+    opacity: 8%;
+}
+.projects-in{
+    top: 17%;
+    position: relative;
+    height: 50rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.projects-in div{
+    height: 15rem;
+    width: 15rem;
+    padding: 2%;
+    border: 1px solid #e1e1e1;
+}
+
