@@ -211,11 +211,12 @@ font-size: 150%;
     font-weight: bold;
 }
 .project-section{
+    position: relative;
     height: 62rem;
 }
 .project-text{
-    top: 40%;
-    position: absolute;
+    top: 50%;
+    position: sticky;
     font-size: 1400%;
     opacity: 8%;
 }
@@ -226,13 +227,37 @@ font-size: 150%;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 .projects-in div{
+    border: 1px;
+    position: relative;
     height: 15rem;
     width: 15rem;
     padding: 2%;
-    border: 1px solid #e1e1e1;
+
+}
+.projects-in div a:first-child{
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.projects-in div a img{
+    height: 100%;
+    width: 100%;
+}
+.projects-in div:hover{
+    transition: border 1s;
+    border: 1px solid #f86251;
+    border-radius: 10%;
+}
+.project-git-img{
+    position: absolute;
+    height: 14%;
+    bottom: -7%;
+    left: 40%;
+    filter: saturate(0);
 }
 

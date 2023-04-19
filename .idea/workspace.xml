@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af5c1846-572f-49e6-92b6-306a4a1df1a2" name="Changes" comment="" />
+    <list default="true" id="af5c1846-572f-49e6-92b6-306a4a1df1a2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/project_img/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,13 +38,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/project_img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyProfile\assets\project_img" />
       <recent name="E:\MyProfile\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -64,7 +70,8 @@
       <updated>1678282883824</updated>
       <workItem from="1678282884519" duration="11140000" />
       <workItem from="1678504073135" duration="1559000" />
-      <workItem from="1681820650070" duration="31081000" />
+      <workItem from="1681820650070" duration="31650000" />
+      <workItem from="1681890452877" duration="4936000" />
     </task>
     <task id="LOCAL-00002" summary="second commit">
       <created>1681860587773</created>
