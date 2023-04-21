@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af5c1846-572f-49e6-92b6-306a4a1df1a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/project_img/img.png" afterDir="false" />
+    <list default="true" id="af5c1846-572f-49e6-92b6-306a4a1df1a2" name="Changes" comment="second commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
@@ -71,7 +70,9 @@
       <workItem from="1678282884519" duration="11140000" />
       <workItem from="1678504073135" duration="1559000" />
       <workItem from="1681820650070" duration="31650000" />
-      <workItem from="1681890452877" duration="4936000" />
+      <workItem from="1681890452877" duration="5041000" />
+      <workItem from="1681914648880" duration="732000" />
+      <workItem from="1682091702390" duration="4761000" />
     </task>
     <task id="LOCAL-00002" summary="second commit">
       <created>1681860587773</created>

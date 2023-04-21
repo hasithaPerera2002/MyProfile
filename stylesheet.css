@@ -228,15 +228,65 @@ font-size: 150%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
+    gap: 2%;
 }
-.projects-in div{
-    border: 1px;
-    position: relative;
+
+.projects-in-2nd-div{
+    border: 1px solid black;
+    position: absolute;
     height: 15rem;
     width: 15rem;
-    padding: 2%;
 
+}
+.projects-in>div{
+    position: relative;
+    height: 15.5rem;
+    width: 15.5rem;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+/*.projects-in div:hover::before{
+    content: ' ';
+    position: absolute;
+    inset: -3%;
+    background: linear-gradient(45deg,#f86251,black,black,#f86251);
+    box-shadow:  0 0 0 1px black;
+    z-index: -1;
+    transition: background 5s;
+
+}
+.projects-in div:hover::after{
+    content: ' ';
+    position: absolute;
+    inset: -3%;
+    background: linear-gradient(45deg,#f86251,black,black,#f86251);
+
+    z-index: -1;
+    filter: blur(50%);
+
+}*/
+.projects-in>div:hover::before{
+    content: ' ';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    height: 15rem;
+    width: 15rem;
+    background: linear-gradient(0deg,transparent,transparent,#f86251,#f86251,#f86251);
+
+
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate {
+    from{transform: rotate(0deg)}
+    to{
+        transform: rotate(360deg);
+    }
 }
 .projects-in div a:first-child{
     display: block;
@@ -247,17 +297,20 @@ font-size: 150%;
 .projects-in div a img{
     height: 100%;
     width: 100%;
+    z-index: 2;
+
 }
-.projects-in div:hover{
+/*.projects-in div:hover{
     transition: border 1s;
     border: 1px solid #f86251;
-    border-radius: 10%;
-}
+
+}*/
 .project-git-img{
     position: absolute;
     height: 14%;
     bottom: -7%;
     left: 40%;
     filter: saturate(0);
+
 }
 
