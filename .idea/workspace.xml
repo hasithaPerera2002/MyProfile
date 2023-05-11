@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af5c1846-572f-49e6-92b6-306a4a1df1a2" name="Changes" comment="second commit">
+    <list default="true" id="af5c1846-572f-49e6-92b6-306a4a1df1a2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/fonts/BlackOpsOne-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Creepster-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Manrope-VariableFont_wght.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Rosario-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/VinaSans-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/jquery-3.6.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/facebook-logo-icon-file-facebook-icon-svg-wikimedia-commons-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/free-instagram-logo-icon-2433-thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/project_img/img.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +28,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -37,17 +50,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/project_img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\MyProfile\assets\project_img" />
       <recent name="E:\MyProfile\assets" />
+      <recent name="E:\MyProfile\assets\project_img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\MyProfile\assets\fonts" />
       <recent name="E:\MyProfile\assets" />
     </key>
   </component>
@@ -72,7 +86,24 @@
       <workItem from="1681820650070" duration="31650000" />
       <workItem from="1681890452877" duration="5041000" />
       <workItem from="1681914648880" duration="732000" />
-      <workItem from="1682091702390" duration="4761000" />
+      <workItem from="1682091702390" duration="9918000" />
+      <workItem from="1682136019138" duration="5528000" />
+      <workItem from="1682224121957" duration="5000" />
+      <workItem from="1682224150625" duration="733000" />
+      <workItem from="1682546194735" duration="98000" />
+      <workItem from="1682546969359" duration="308000" />
+      <workItem from="1682549807878" duration="53000" />
+      <workItem from="1682583714496" duration="459000" />
+      <workItem from="1682737432749" duration="609000" />
+      <workItem from="1683148096534" duration="1478000" />
+      <workItem from="1683198870251" duration="4424000" />
+      <workItem from="1683296112667" duration="4870000" />
+      <workItem from="1683470823831" duration="674000" />
+      <workItem from="1683639840706" duration="6245000" />
+      <workItem from="1683647864815" duration="57000" />
+      <workItem from="1683647937567" duration="15802000" />
+      <workItem from="1683709284554" duration="26740000" />
+      <workItem from="1683784115455" duration="3692000" />
     </task>
     <task id="LOCAL-00002" summary="second commit">
       <created>1681860587773</created>
@@ -81,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681860587773</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="second commit">
+      <created>1682096818238</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682096818238</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
