@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af5c1846-572f-49e6-92b6-306a4a1df1a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/fonts/BlackOpsOne-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Creepster-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Manrope-VariableFont_wght.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Rosario-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/VinaSans-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/jquery-3.6.3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/facebook-logo-icon-file-facebook-icon-svg-wikimedia-commons-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/free-instagram-logo-icon-2433-thumb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/mail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/project_img/img.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +90,8 @@
       <workItem from="1683647864815" duration="57000" />
       <workItem from="1683647937567" duration="15802000" />
       <workItem from="1683709284554" duration="26740000" />
-      <workItem from="1683784115455" duration="3692000" />
+      <workItem from="1683784115455" duration="4614000" />
+      <workItem from="1683877644512" duration="1798000" />
     </task>
     <task id="LOCAL-00002" summary="second commit">
       <created>1681860587773</created>
@@ -119,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682096818238</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="3">
+      <created>1683787866600</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683787866600</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +122,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3" />
   </component>
 </project>
