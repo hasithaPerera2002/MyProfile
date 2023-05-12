@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>l
     <meta charset="UTF-8">
     <meta name="description" content="This is a personal portfolio of Hasitha Perera ">
     <meta name="author" content="Hasitha Perera">
     <meta name="og:title" content="Hasitha's website">
     <title>MyProfile</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="assets/stylesheets/home.css">
 </head>
 <body>
+<div id="loadHere">
+
+</div>
 <div class="logo">
-    <img src="assets/H.png" alt="">
+    <img src="assets/img/H.png" alt="">
 </div>
 <button class="menu" id="menu-icon" onclick="openMenu()">
 
@@ -21,17 +24,18 @@
 <div class="burger-menu "  id="menu-box">
 
     <ul>
+
         <li class="nav-link">
-            <h1 data-name="home">Home</h1>
+            <h1 data-name="ABOUT">ABOUT</h1>
         </li>
         <li class="nav-link">
-            <h1 data-name="About">About</h1>
+            <a href="projects.html">
+                <h1 data-name="PROJECTS">PROJECTS</h1>
+            </a>
+
         </li>
         <li class="nav-link">
-            <h1 data-name="services">services</h1>
-        </li>
-        <li class="nav-link">
-            <h1 data-name="contact">contact</h1>
+            <h1 data-name="CONTACT">CONTACT</h1>
         </li>
     </ul>
 </div>
@@ -58,11 +62,7 @@
     the intersection of  technology.</p>
 <footer>Copyright ©2022 Hasitha Perera. All Right Reserved.</footer>
 </body>
-<script>
-    let elementById = document.getElementById('menu-icon');
 
-
-</script>
-<script src="assets/jquery-3.6.3.js"></script>
-<script src="assets/script.js"></script>
+<script src="assets/script/jquery-3.6.3.js"></script>
+<script src="assets/script/script.js"></script>
 </html>

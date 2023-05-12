@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af5c1846-572f-49e6-92b6-306a4a1df1a2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/Hostel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/fStore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/stylesheets/projects.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/navigation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/IMG-20230114-WA0004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/IMG-20230114-WA0004.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/beach.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/beach.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/hasitha_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/hasitha_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/image_processing20220801-17461-1m9zilq.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/image_processing20220801-17461-1m9zilq.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery-3.6.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/script/jquery-3.6.3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/result (3).png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/result (3).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/script/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/home.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,9 +26,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -37,17 +50,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyProfile\assets\img" />
       <recent name="E:\MyProfile\assets" />
       <recent name="E:\MyProfile\assets\project_img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\MyProfile\assets\img" />
+      <recent name="E:\MyProfile\assets\script" />
       <recent name="E:\MyProfile\assets\fonts" />
       <recent name="E:\MyProfile\assets" />
     </key>
@@ -91,7 +107,8 @@
       <workItem from="1683647937567" duration="15802000" />
       <workItem from="1683709284554" duration="26740000" />
       <workItem from="1683784115455" duration="4614000" />
-      <workItem from="1683877644512" duration="1798000" />
+      <workItem from="1683877644512" duration="3055000" />
+      <workItem from="1683891032660" duration="17653000" />
     </task>
     <task id="LOCAL-00002" summary="second commit">
       <created>1681860587773</created>
@@ -114,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683787866600</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="4">
+      <created>1683879465246</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683879465246</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +147,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second commit" />
     <MESSAGE value="3" />
-    <option name="LAST_COMMIT_MESSAGE" value="3" />
+    <MESSAGE value="4" />
+    <option name="LAST_COMMIT_MESSAGE" value="4" />
   </component>
 </project>

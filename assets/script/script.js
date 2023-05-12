@@ -5,5 +5,6 @@ function openMenu(){
     $('.burger-menu').toggleClass('active')
 
 }
+// $('#loadHere').load("navigation.html");
 
 
