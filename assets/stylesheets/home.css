@@ -3,7 +3,7 @@
 }
 
 body {
-    height: 95vh;
+
     background-color: #030918;
 }
 
@@ -21,12 +21,12 @@ body {
     height: 100vh;
     width: 99%;
     background: #030918;
-    position: fixed;
+
     z-index: 12;
     cursor: none;
 }
 .svg-anime{
-    position: absolute;
+
     z-index: 15;
     top: 45%;
     left: 45%;
@@ -40,15 +40,16 @@ body {
 }
 .mouse-loading-text{
     font-family: 'Orbitron', sans-serif;
-
     animation: blink .9s ease-in-out infinite alternate;
     color: white;
-    position: absolute;
+
     height: 1rem;
     width: 13rem;
     bottom: 1rem;
     left: 47%;
-
+}
+.visible{
+    position: fixed;
 }
 
 .logo img {
@@ -126,12 +127,12 @@ footer {
 .para {
     position: absolute;
     color: white;
-    display: block;
+    display: none;
 
 }
 
 .text1 {
-    animation: show 15s;
+    animation: show 5s;
     font-family: 'Rosaro', sans-serif;
     left: 14rem;
     font-size: 140%;
@@ -139,7 +140,7 @@ footer {
 }
 
 .text2 {
-    animation: show 18s;
+    animation: show 8s;
     word-spacing: 0.51rem;
     letter-spacing: .01rem;
     font-size: 108%;
@@ -165,7 +166,7 @@ body:has(.name:hover) .para:not(.name) {
 
 .name {
     font-weight: bold;
-    animation: show 20s;
+    animation: show 6s;
     font-size: 6rem;
     left: 14rem;
     top: 16rem;
@@ -529,7 +530,7 @@ h1:hover::after {
 }
 #canvas{
     top: 0;
-    height: 100%;
+    height: auto;
     overflow: hidden;
     width: 100%;
     filter: blur();
@@ -669,7 +670,16 @@ h1:hover::after {
 .card:hover {
     transform: scale(1.04) rotate(-1deg);
 }
+.moon{
+    position: absolute;
+    height: 8rem;
+    width: 8rem;
+}
+.moon>img{
+    width: fit-content;
+}
 #projects{
+        overflow: hidden;
     height: 100vh;
     position: relative;
 }
@@ -684,9 +694,9 @@ h1:hover::after {
     color: white;
     position: absolute;
     font-family: "Vina Sans", serif;
-    font-size: 500%;
-    font-weight: 2;
+    font-size: 6rem;
+    font-weight: bold;
 }
 
-}
+
 

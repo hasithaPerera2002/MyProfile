@@ -10,10 +10,12 @@ $(document).ready(()=>{
         function()
         {
             $('.visible').css({display:'none'})
-        }, 1000);
+            $('.para').css({display: 'block'})
+        }, 5000);
+
 
 })
-
+$(document).ready()
 let c = init("canvas"),
     w = (canvas.width = window.innerWidth),
     h = (canvas.height = window.innerHeight);
