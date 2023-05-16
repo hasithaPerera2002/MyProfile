@@ -7,12 +7,48 @@ body {
     background-color: #030918;
 }
 
+@media (min-width: 500px) and (max-width: 1000px) {
+    .name, .text2, .text1 {
+        left: 80px !important;
+    }
+
+}
+
+.loading-screen {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 99%;
+    background: #030918;
+    position: fixed;
+    z-index: 12;
+    cursor: none;
+}
+.svg-anime{
+    position: absolute;
+    z-index: 15;
+    top: 45%;
+    left: 45%;
+}
 .logo {
     left: 2rem;
     top: 0;
     position: absolute;
     width: 6rem;
     height: 6rem;
+}
+.mouse-loading-text{
+    font-family: 'Orbitron', sans-serif;
+
+    animation: blink .9s ease-in-out infinite alternate;
+    color: white;
+    position: absolute;
+    height: 1rem;
+    width: 13rem;
+    bottom: 1rem;
+    left: 47%;
+
 }
 
 .logo img {
@@ -25,7 +61,7 @@ footer {
     font-size: .71rem;
     left: 40%;
     color: white;
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
 
@@ -39,7 +75,7 @@ footer {
     border: none;
     cursor: pointer;
     display: inline;
-    position: absolute;
+    position: fixed;
 }
 
 /*
@@ -90,12 +126,12 @@ footer {
 .para {
     position: absolute;
     color: white;
-    display: inline;
+    display: block;
+
 }
 
 .text1 {
-    animation: show 5s;
-
+    animation: show 15s;
     font-family: 'Rosaro', sans-serif;
     left: 14rem;
     font-size: 140%;
@@ -103,7 +139,7 @@ footer {
 }
 
 .text2 {
-    animation: show 8s;
+    animation: show 18s;
     word-spacing: 0.51rem;
     letter-spacing: .01rem;
     font-size: 108%;
@@ -129,11 +165,12 @@ body:has(.name:hover) .para:not(.name) {
 
 .name {
     font-weight: bold;
-    animation: show 10s;
+    animation: show 20s;
     font-size: 6rem;
     left: 14rem;
     top: 16rem;
     width: 82%;
+    z-index: 1;
 }
 
 span {
@@ -286,7 +323,7 @@ span {
 
 .name:hover > .letter:nth-child(10) {
     color: greenyellow;
-    transform: translate(-60%, -210%) rotate(58deg) rotate3d(45, 155, 100, 60deg)  ;
+    transform: translate(-60%, -210%) rotate(58deg) rotate3d(45, 155, 100, 60deg);
 
 }
 
@@ -308,7 +345,7 @@ span {
 }
 
 .name > .letter {
-    transition:  transform 350ms,color 150ms ease-out ;
+    transition: transform 350ms, color 150ms ease-out;
 }
 
 .name:hover > .letter {
@@ -352,22 +389,25 @@ span {
 
     transform: rotate(-45deg);
 }
-.menu.active span{
+
+.menu.active span {
     right: 6%;
     top: 36%;
     background: #2cbac7;
-    transition: color .8s,transform .5s ease-in;
+    transition: color .8s, transform .5s ease-in;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 .burger-menu {
-    clip-path: circle(2rem at calc(100% - 3.5rem)2rem);
+    clip-path: circle(2rem at calc(100% - 3.5rem) 2rem);
     width: 100%;
-    height: 100%;
+    height: 90%;
     z-index: 10;
     display: flex;
-    position: absolute;
+    position: fixed;
     background-color: white;
     align-items: center;
     justify-content: center;
@@ -376,16 +416,18 @@ a{
 }
 
 .burger-menu.active {
+    top: 0;
     width: 100%;
-    height: 100%;
+    height: 98%;
 
     background-color: #030918;
     clip-path: circle(75%);
 }
-.burger-menu.active ul{
+
+.burger-menu.active ul {
     transform: translateY(-.2rem);
     opacity: 1;
-    transition: transform 1.5s,opacity 3s ease-in;
+    transition: transform 1.5s, opacity 3s ease-in;
 
 }
 
@@ -484,5 +526,167 @@ h1:hover::after {
 
 #menu-icon:hover {
     cursor: pointer;
+}
+#canvas{
+    top: 0;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+    filter: blur();
+    animation: show 8s;
+    position: absolute;
+
+}
+.triangle {
+    stroke-dasharray: 17;
+    animation: dash 2.5s cubic-bezier(0.35, 0.04, 0.63, 0.95) infinite;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 136;
+    }
+}
+
+.loading {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 7px;
+    animation: blink .9s ease-in-out infinite alternate;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+
+.main-context>div {
+    margin-left: 2rem;
+    width: 25rem;
+    height: 25rem;
+}
+
+.main-context {
+    top: 21rem;
+    display: flex;
+    position: absolute;
+    width: 75%;
+    justify-content: center;
+    align-items: flex-start;
+
+    height: 160vh;
+    flex-wrap: wrap;
+    gap: 2rem;
+    left: 12rem;
+}
+.main-context>div:first-child, .main-context>div:nth-child(4) {
+    margin-top: 2rem;
+}
+.main-context>div:first-child, .main-context>div:nth-child(6){
+    width: 19rem;
+}
+.main-context>div:first-child .text{
+    color: whitesmoke;
+}
+.main-context>div:nth-child(5){
+    margin-top: 3rem;
+}
+.main-context>div:nth-child(5),.main-context>div:nth-child(3){
+    width: 22rem;
+}
+
+.card {
+    position: relative;
+    background: transparent;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    transition: 0.2s ease-in-out;
+}
+
+.img {
+    border-radius: 5%;
+    width: 100%;
+    height: 85%;
+    position: absolute;
+    transition: 0.2s ease-in-out;
+    z-index: 1;
+}
+
+.textBox {
+    text-align: center;
+    height: 80%;
+    width: 100%;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    transition: 0.2s ease-in-out;
+    z-index: 2;
+}
+
+.textBox > .text {
+    font-weight: bold;
+}
+
+.textBox > .head {
+    font-size: 20px;
+}
+
+
+
+.card:hover > .textBox {
+    opacity: 1;
+}
+
+.card:hover > .img {
+    height: 65%;
+    filter: blur(7px);
+    animation: anim 3s infinite;
+}
+
+@keyframes anim {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-2rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.card:hover {
+    transform: scale(1.04) rotate(-1deg);
+}
+#projects{
+    height: 100vh;
+    position: relative;
+}
+#home{
+    height: 100vh;
+    position: relative;
+}
+#projects>a{
+
+    transform: translate(12rem, 12rem);
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    font-family: "Vina Sans", serif;
+    font-size: 500%;
+    font-weight: 2;
+}
+
 }
 

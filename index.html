@@ -7,13 +7,23 @@
     <meta name="og:title" content="Hasitha's website">
     <title>MyProfile</title>
     <link rel="stylesheet" href="assets/stylesheets/home.css">
+
 </head>
 <body>
-<div id="loadHere">
+<section id="home">
+<canvas class="particle-net loading-screen visible">
 
-</div>
-<div class="logo">
-    <img src="assets/img/H.png" alt="">
+</canvas>
+<svg width="200" height="200" viewBox="0 0 40 60" class="visible svg-anime">
+    <polygon class="triangle" fill="none" stroke="#fff" stroke-width="1" points="16,1 32,32 1,32"/>
+    <text class="loading" x="0" y="45" fill="#fff" >Loading...</text>
+</svg>
+<a href="" class="loading-screen mouse-loading-text visible">move your mouse!</a>
+<div class="logo" data-aos="zoom-out-left">
+
+        <img src="assets/img/H.png" alt="">
+
+
 </div>
 <button class="menu" id="menu-icon" onclick="openMenu()">
 
@@ -60,9 +70,84 @@
     As a software engineer, I bring creativity, precision,
     and attention to detail to my work. Let's connect and explore
     the intersection of  technology.</p>
+<div class="social">
+    <div class="social-links"></div>
+    <div class="social-links"></div>
+    <div class="social-links"></div>
+    <div class="social-links"></div>
+</div>
+<canvas id="canvas"></canvas>
+</section>
+<section id="projects">
+    <a href="">PROJECTS</a>
+    <div class="main-context">
+        <div >
+            <div class="card" data-aos="zoom-out-left">
+                <img src="assets/img/fStore.png" class="img" alt="">
+                <section class="textBox">
+                    <p class="text head">FASHION STORE</p>
+                    <span>
+                    THIS PROJECT IS DONE USING HIBERNATE FRAMEWORK AND LAYERED ARCHITECTURE
+                </span>
+                    <a href="https://github.com/hasithaPerera2002/FashionStore">click here</a>
+                </section>
+            </div>
+        </div>
+        <div>
+            <div class="card">
+                <img src="assets/img/Hostel.png" class="img" alt="">
+                <section class="textBox">
+                    <p class="text head">HOSTEL MANAGEMENT SYSTEM</p>
+                    <span style="color: black">
+                    THIS PROJECT IS DONE USING HIBERNATE FRAMEWORK AND LAYERED ARCHITECTURE
+                </span>
+                    <a href="https://github.com/hasithaPerera2002/hibernate_final">click here</a>
+                </section>
+            </div>
+        </div>
+        <div>
+            <div class="card">
+                <img src="" class="img" alt="demo">
+                <section class="textBox">
+                    <p class="text head"></p>
+
+                </section>
+            </div>
+        </div>
+        <div>
+            <div class="card">
+                <img src="" class="img" alt="demo">
+                <section class="textBox">
+                    <p class="text head"></p>
+
+                </section>
+            </div>
+        </div>
+        <div>
+            <div class="card">
+                <img src="" class="img" alt="demo">
+                <section class="textBox">
+                    <p class="text head"></p>
+
+                </section>
+            </div>
+        </div>
+        <div>
+            <div class="card">
+                <img src="" class="img" alt="demo">
+                <section class="textBox">
+                    <p class="text head"></p>
+
+                </section>
+            </div>
+        </div>
+    </div>
+</section>
 <footer>Copyright ©2022 Hasitha Perera. All Right Reserved.</footer>
+
 </body>
 
 <script src="assets/script/jquery-3.6.3.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="assets/script/script.js"></script>
 </html>
