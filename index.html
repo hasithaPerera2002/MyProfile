@@ -10,44 +10,29 @@
 
 </head>
 <body>
-<section>
+<nav>
+    <div class="logo" data-aos="zoom-out-left">
+        <img src="assets/img/H.png" alt="logo">
+    </div>
+    <div class="nav-bar">
+        <ul>
+            <li class="nav-bar-items">HOME</li>
+            <li class="nav-bar-items">ABOUT</li>
+            <li class="nav-bar-items">PROJECTS</li>
+            <li class="nav-bar-items">CONTACT</li>
+        </ul>
+    </div>
+</nav>
 <section id="home">
 <canvas class="particle-net loading-screen visible">
-
 </canvas>
 <svg width="200" height="200" viewBox="0 0 40 60" class="visible svg-anime">
     <polygon class="triangle" fill="none" stroke="#fff" stroke-width="1" points="16,1 32,32 1,32"/>
     <text class="loading" x="0" y="45" fill="#fff" >Loading...</text>
 </svg>
 <a href="" class="loading-screen mouse-loading-text visible">move your mouse!</a>
-<div class="logo" data-aos="zoom-out-left">
 
-        <img src="assets/img/H.png" alt="logo">
-
-
-</div>
-<button class="menu" id="menu-icon" onclick="openMenu()">
-    <span></span>
-    <span></span>
-    <span></span>
-</button>
-<div class="burger-menu "  id="menu-box">
-    <ul>
-        <li class="nav-link">
-            <h1 data-name="ABOUT">ABOUT</h1>
-        </li>
-        <li class="nav-link">
-            <a href="projects.html">
-                <h1 data-name="PROJECTS">PROJECTS</h1>
-            </a>
-
-        </li>
-        <li class="nav-link">
-            <h1 data-name="CONTACT">CONTACT</h1>
-        </li>
-    </ul>
-</div>
- //-----------------------name-------------------------------
+<!-- name-->
 <p class="para text1">HI THERE... IT'S ME</p>
 <div class="para name">
     <span class="letter"  id="H" data-text="H" >H</span
@@ -69,16 +54,9 @@
     As a software engineer, I bring creativity, precision,
     and attention to detail to my work. Let's connect and explore
     the intersection of  technology.</p>
-//-----------------------social links---------------------------------
-<div class="social">
-    <div class="social-links"></div>
-    <div class="social-links"></div>
-    <div class="social-links"></div>
-    <div class="social-links"></div>
-</div>
-<canvas id="canvas"></canvas>
 </section>
-//------------------------------project section-------------------------------------------
+<canvas id="canvas"></canvas>
+<!--project section-->
 <section id="projects">
     <div class="moon">
         <img src="assets/img/moon.png" alt="moon">
@@ -147,7 +125,7 @@
         </div>
     </div>
 </section>
-</section>
+
 <footer>Copyright ©2022 Hasitha Perera. All Right Reserved.</footer>
 
 </body>

@@ -11,10 +11,19 @@ $(document).ready(()=>{
         {
             $('.visible').css({display:'none'})
             $('.para').css({display: 'block'})
-        }, 5000);
+        }, 300);
 
 
 })
+$(window).scroll(()=>{
+    console.log($(window).scrollTop())
+    if ($(window).scrollTop()>500){
+        $('.nav-bar').css({opacity:'1'})
+    }else {
+        $('.nav-bar').css({opacity:'0'})
+    }
+})
+
 $(document).ready()
 let c = init("canvas"),
     w = (canvas.width = window.innerWidth),
@@ -113,7 +122,7 @@ loop();
 setInterval(loop, 1000 / 60);
 
 
-
+//===================================
 
 var Vector = function(x, y){
     'use strict';
