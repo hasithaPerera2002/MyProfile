@@ -13,42 +13,52 @@ body {
         top: 9rem !important;
         font-size: 1.7rem !important;
     }
-    footer{
+
+    footer {
         left: 20% !important;
     }
-    .main-context{
+
+    .main-context {
         top: 10rem !important;
     }
-    .main-context>div{
-        height: 15rem!important;
+
+    .main-context > div {
+        height: 15rem !important;
     }
-    ul{
+
+    .nav-bar-ul {
         gap: 0 !important;
         padding-left: 0;
 
     }
-    #projects>a{
+
+    #projects > a {
         font-size: 2rem !important;
         transform: translate(2rem, 5rem) !important;
     }
-    li{
+
+    li {
         font-size: .6rem !important;
     }
-    .logo{
+
+    .logo {
         padding-left: 0 !important;
     }
-    #home{
+
+    #home {
         height: 60vh !important;
     }
 
-    .para{
-        left:2rem !important;
+    .para {
+        left: 2rem !important;
     }
-    .text1{
+
+    .text1 {
         top: 6rem !important;
         font-size: .8rem !important;
     }
-    .text2{
+
+    .text2 {
         word-spacing: 0.21rem !important;
         height: 5rem;
         width: 11rem !important;
@@ -56,6 +66,128 @@ body {
         top: 12rem !important;
         font-size: .5rem !important;
     }
+}
+
+@media (min-width: 451px) and (max-width: 600px) {
+    .name {
+        top: 11.5rem !important;
+        font-size: 2.8rem !important;
+    }
+
+    .text1 {
+        top: 9rem !important;
+        font-size: 1.3rem !important;
+    }
+
+    .text2 {
+        word-spacing: 0.21rem !important;
+        height: 5rem;
+        width: 90% !important;
+        line-height: 1.4rem !important;
+        top: 16rem !important;
+        font-size: .8rem !important;
+    }
+
+    footer {
+        left: 20% !important;
+    }
+
+    .main-context {
+        top: 10rem !important;
+    }
+
+    .main-context > div {
+        height: 15rem !important;
+    }
+
+    .nav-bar-ul {
+        gap: 0 !important;
+        padding-left: 0;
+
+    }
+
+    #projects > a {
+        font-size: 2rem !important;
+        transform: translate(2rem, 5rem) !important;
+    }
+
+    .nav-bar-ul li {
+        font-size: .9rem !important;
+    }
+
+    .logo {
+        padding-left: 0 !important;
+    }
+
+    #home {
+        height: 80vh !important;
+    }
+
+    .para {
+        left: 2rem !important;
+    }
+
+}
+
+@media (min-width: 601px) and (max-width: 850px) {
+    .name {
+        top: 11.5rem !important;
+        font-size: 2.8rem !important;
+    }
+
+    .text1 {
+        top: 9rem !important;
+        font-size: 1.3rem !important;
+    }
+
+    .text2 {
+        word-spacing: 0.21rem !important;
+        height: 5rem;
+        width: 90% !important;
+        line-height: 1.4rem !important;
+        top: 16rem !important;
+        font-size: .8rem !important;
+    }
+
+    footer {
+        left: 20% !important;
+    }
+
+    .main-context {
+        top: 10rem !important;
+    }
+
+    .main-context > div {
+        height: 15rem !important;
+    }
+
+    .nav-bar-ul {
+        gap: 0 !important;
+        padding-left: 0;
+
+    }
+
+    #projects > a {
+        font-size: 2rem !important;
+        transform: translate(2rem, 5rem) !important;
+    }
+
+    .nav-bar-ul li {
+        font-size: .9rem !important;
+    }
+
+    .logo {
+        padding-left: 0 !important;
+    }
+
+    #home {
+        height: 80vh !important;
+    }
+
+    .para {
+        left: 2rem !important;
+    }
+
 }
 
 
@@ -85,7 +217,7 @@ body {
 }
 
 .logo {
-    padding-left: 6rem;
+
     position: relative;
     width: 6rem;
     height: 100%;
@@ -132,7 +264,8 @@ nav {
     height: 100%;
     display: flex;
 }
-ul{
+
+.nav-bar-ul {
 
     opacity: 1;
     display: flex;
@@ -140,11 +273,13 @@ ul{
     list-style: none;
 
 }
-ul>li{
+
+.nav-bar-ul > li {
     padding-right: 1rem;
     position: relative;
     display: inline-block;
 }
+
 .logo img {
     filter: brightness(2);
     height: 100%;
@@ -158,6 +293,7 @@ footer {
     position: fixed;
     bottom: 0;
 }
+
 .para {
     position: absolute;
     color: white;
@@ -199,12 +335,13 @@ body:has(.name:hover) .para:not(.name) {
 }
 
 .name {
+    background-color: transparent;
     font-weight: bold;
     animation: show 6s;
     font-size: 6rem;
     left: 14rem;
     top: 16rem;
-    width: 82%;
+    width: 70%;
     z-index: 1;
 }
 
@@ -313,74 +450,185 @@ span {
 
 .name:hover > .letter:first-child {
     transform: translate(-108%, -64%) rotate(-12deg) rotate3d(14, 100, 10, 55deg);
+    background: ghostwhite;
+    border: 1px solid ghostwhite;
+    text-shadow: 0 0 5px #ffffff,
+    0 0 10px #ffffff,
+    0 0 20px #ffffff;
+    box-shadow: 0 0 5px ghostwhite,
+    0 0 20px ghostwhite,
+    0 0 50px ghostwhite,
+    0 0 100px ghostwhite;
 
 }
 
 .name:hover > .letter:nth-child(2) {
-    transform: translate(-70%, 9%) rotate(6deg) rotate3d(4, 1, 10, 155deg);
+    transform: translate(-270%, 219%) rotate(6deg) rotate3d(4, 1, 10, 155deg);
     color: salmon;
+    background: salmon;
+    border: 1px solid salmon;
+    text-shadow: 0 0 5px #ffffff,
+    0 0 10px #ffffff,
+    0 0 20px #ffffff;
+    box-shadow: 0 0 5px salmon,
+    0 0 20px salmon,
+    0 0 50px salmon,
+    0 0 100px salmon;
 }
 
 .name:hover > .letter:nth-child(3) {
-    transform: translate(-82%, -199%) rotate(150deg) rotate3d(4, 1, 100, 15deg);
+    transform: translate(-582%, -199%) rotate(150deg) rotate3d(4, 1, 100, 15deg);
     color: cyan;
+    background: cyan;
+    border: 1px solid cyan;
+    text-shadow: 0 0 5px #ffffff,
+    0 0 10px #ffffff,
+    0 0 20px #ffffff;
+    box-shadow: 0 0 5px cyan,
+    0 0 20px cyan,
+    0 0 50px cyan,
+    0 0 100px cyan;
 }
 
 .name:hover > .letter:nth-child(4) {
-    transform: translate(-76%, -75%) rotate(85deg) rotate3d(104, 100, 10, 255deg);
+    transform: translate(20%, -175%) rotate(105deg) rotate3d(-173, -52, 3, 255deg);
     color: yellow;
+    background: transparent;
+    border: 1px solid yellow;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px yellow, 0 0 20px yellow, 0 0 50px yellow, 0 0 100px yellow;
 }
 
 .name:hover > .letter:nth-child(5) {
-    transform: translate(150%, -164%) rotate(18deg) rotate3d(45, 155, 100, 60deg);
+    transform: translate(450%, -164%) rotate(18deg) rotate3d(45, 155, 100, 60deg);
     color: aquamarine;
+    background: aquamarine;
+    border: 1px solid aquamarine;
+    text-shadow: 0 0 5px #ffffff,
+    0 0 10px #ffffff,
+    0 0 20px #ffffff;
+    box-shadow: 0 0 5px aquamarine,
+    0 0 20px aquamarine,
+    0 0 50px aquamarine,
+    0 0 100px aquamarine;
 }
 
 .name:hover > .letter:nth-child(6) {
     transform: translate(-47%, 211%) rotate(-6deg) rotate3d(300, 100, 660, 255deg);
     color: blue;
+    background: blue;
+    border: 1px solid blue;
+    text-shadow: 0 0 5px #ffffff,
+    0 0 10px #ffffff,
+    0 0 20px #ffffff;
+    box-shadow: 0 0 5px blue,
+    0 0 20px blue,
+    0 0 50px blue,
+    0 0 100px blue;
 }
 
 .name:hover > .letter:nth-child(7) {
-    transform: translate(-150%, 45%) rotate(60deg);
+    transform: translate(-450%, 90%) rotate(60deg);
     color: mediumvioletred;
+    background: mediumvioletred;
+    border: 1px solid mediumvioletred;
+    text-shadow: 0 0 5px #ffffff,
+    0 0 10px #ffffff,
+    0 0 20px #ffffff;
+    box-shadow: 0 0 5px mediumvioletred,
+    0 0 20px mediumvioletred,
+    0 0 50px mediumvioletred,
+    0 0 100px mediumvioletred;
 }
 
 .name:hover > .letter:nth-child(8) {
-    transform: translate(-100%, 97%) rotate(-48deg) rotate3d(10, 60, 100, 255deg);
+    transform: translate(-190%, 20%) rotate(-48deg) rotate3d(10, 60, 100, 255deg);
     color: red;
+    background: red;
+    border: 1px solid red;
+    text-shadow: 0 0 5px #ffffff,
+    0 0 10px #ffffff,
+    0 0 20px #ffffff;
+    box-shadow: 0 0 5px red,
+    0 0 20px red,
+    0 0 50px red,
+    0 0 100px red;
 }
 
 .name:hover > .letter:nth-child(9) {
-    transform: translate(-60%, -45%) rotate(31deg) rotate3d(300, 100, 660, 255deg);
+    transform: translate(100%, 120%) rotate(31deg) rotate3d(300, 100, 660, 255deg);
     color: rebeccapurple;
+    background: rebeccapurple;
+    border: 1px solid rebeccapurple;
+    text-shadow: 0 0 5px #ffffff,
+    0 0 10px #ffffff,
+    0 0 20px #ffffff;
+    box-shadow: 0 0 5px rebeccapurple,
+    0 0 20px rebeccapurple,
+    0 0 50px rebeccapurple,
+    0 0 100px rebeccapurple;
 }
 
 .name:hover > .letter:nth-child(10) {
     color: greenyellow;
-    transform: translate(-60%, -210%) rotate(58deg) rotate3d(45, 155, 100, 60deg);
-
+    transform: translate(140%, 10%) rotate(58deg) rotate3d(45, 155, 100, 60deg);
+    background: greenyellow;
+    border: 1px solid greenyellow;
+    text-shadow: 0 0 5px #ffffff,
+    0 0 10px #ffffff,
+    0 0 20px #ffffff;
+    box-shadow: 0 0 5px greenyellow,
+    0 0 20px greenyellow,
+    0 0 50px greenyellow,
+    0 0 100px greenyellow;
 }
 
 .name:hover > .letter:nth-child(11) {
-    transform: translate(-60%, 60%) rotate3d(45, 155, 100, 40deg);
+    transform: translate(140%, 260%) rotate3d(45, 155, 100, 40deg);
     color: steelblue;
+    background: steelblue;
+    border: 1px solid steelblue;
+    text-shadow: 0 0 5px #ffffff,
+    0 0 10px #ffffff,
+    0 0 20px #ffffff;
+    box-shadow: 0 0 5px steelblue,
+    0 0 20px steelblue,
+    0 0 50px steelblue,
+    0 0 100px steelblue;
 }
 
 .name:hover > .letter:nth-child(12) {
-    transform: translate(-61%, -105%) rotate3d(45, 155, 10, 180deg);
+    transform: translate(225%, -160%) rotate3d(45, 155, 10, 180deg);
     color: wheat;
+    background: wheat;
+    border: 1px solid wheat;
+    text-shadow: 0 0 5px #ffffff,
+    0 0 10px #ffffff,
+    0 0 20px #ffffff;
+    box-shadow: 0 0 5px wheat,
+    0 0 20px wheat,
+    0 0 50px wheat,
+    0 0 100px wheat;
 
 }
 
 .name:hover > .letter:nth-child(13) {
-    transform: translate(60%, -8%) rotate3d(14, 10, 10, 55deg);
+    transform: translate(260%, 120%) rotate3d(14, 10, 10, 55deg);
     color: cadetblue;
+    background: cadetblue;
+    border: 1px solid cadetblue;
+    text-shadow: 0 0 5px #ffffff,
+    0 0 10px #ffffff,
+    0 0 20px #ffffff;
+    box-shadow: 0 0 5px cadetblue,
+    0 0 20px cadetblue,
+    0 0 50px cadetblue,
+    0 0 100px cadetblue;
 
 }
 
 .name > .letter {
-    transition: transform 350ms, color 150ms ease-out;
+    transition: transform 350ms, color 150ms,background-color 100ms ease-out;
 }
 
 .name:hover > .letter {
@@ -388,11 +636,12 @@ span {
 
 }
 
-:root {
+/*:root {
     --bgcolor: #030918;
-}
+}*/
 
 #canvas {
+    z-index: -1;
     top: 0;
     height: auto;
     overflow: hidden;
@@ -574,5 +823,101 @@ span {
     font-weight: bold;
 }
 
+.social {
+    left: 14rem;
+    top: 35rem;
+    display: flex;
+    position: relative;
+    width: 21rem;
+    height: 3rem;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+}
+
+.social > ul {
+    gap: 3rem;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    justify-content: space-between;
+    flex: 1;
+    position: relative;
+
+}
+
+.social li {
+    background-color: #fff;
+    align-items: center;
+    flex: 1;
+    cursor: pointer;
+    border-radius: 45%;
+    justify-content: center;
+    border: 1px solid #fff;
+    display: inline-flex;
+    transition: 1s;
+    position: relative;
+}
+
+.social li img {
+
+    height: 40%;
+    width: 40%;
+
+}
+
+.social>ul>li:first-child:hover,:focus {
+
+    background: #008cff;
+    border: 1px solid #008cff;
+    text-shadow: 0 0 5px #ffffff,
+    0 0 10px #ffffff,
+    0 0 20px #ffffff;
+    box-shadow: 0 0 5px #008cff,
+    0 0 20px #008cff,
+    0 0 50px #008cff,
+    0 0 100px #008cff;
+}
+.social>ul>li:nth-child(2):hover,:focus {
+
+    background:  linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); ;
+    border: 1px solid #f09433;
+    text-shadow: 0 0 5px #bc1888,
+    0 0 10px #bc1888,
+    0 0 20px #bc1888;
+    box-shadow: 0 0 5px #cc2366,
+    0 0 20px #dc2743,
+    0 0 50px #bc1888,
+    0 0 100px #e6683c;
+}
+.social>ul>li:nth-child(3):hover,:focus {
+    color: #ffffff;
+    background: #25D366;
+    border: 1px solid #25D366;
+    text-shadow: 0 0 5px #25D366,
+    0 0 10px #25D366,
+    0 0 20px #ffffff;
+    box-shadow: 0 0 5px #25D366,
+    0 0 20px #25D366,
+    0 0 50px #25D366,
+    0 0 100px #25D366;
+}
+.social>ul>li:nth-child(4):hover,:focus {
+    color: #ffffff;
+    background: #D3D3D3;
+    border: 1px solid #D3D3D3;
+    text-shadow: 0 0 5px #D3D3D3,
+    0 0 10px #D3D3D3,
+    0 0 20px #D3D3D3;
+    box-shadow: 0 0 5px #D3D3D3,
+    0 0 20px #D3D3D3,
+    0 0 50px #D3D3D3,
+    0 0 100px #D3D3D3;
+}
 
 

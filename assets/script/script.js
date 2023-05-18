@@ -1,23 +1,17 @@
-function openMenu(){
 
-
-    $('#menu-icon').toggleClass('active ')
-    $('.burger-menu').toggleClass('active')
-
-}
 $(document).ready(()=>{
     setTimeout(
         function()
         {
             $('.visible').css({display:'none'})
             $('.para').css({display: 'block'})
-        }, 300);
+        }, 100);
 
 
 })
 $(window).scroll(()=>{
     console.log($(window).scrollTop())
-    if ($(window).scrollTop()>500){
+    if ($(window).scrollTop()>100){
         $('.nav-bar').css({opacity:'1'})
     }else {
         $('.nav-bar').css({opacity:'0'})
