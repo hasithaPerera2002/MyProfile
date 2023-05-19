@@ -292,6 +292,7 @@ footer {
     color: white;
     position: fixed;
     bottom: 0;
+    z-index: 10;
 }
 
 .para {
@@ -679,7 +680,7 @@ span {
 .main-context > div {
 
     width: 25rem;
-    height: 25rem;
+    height: 20rem;
 }
 
 .main-context {
@@ -687,11 +688,12 @@ span {
     display: flex;
     position: absolute;
     width: 80%;
+    align-content: flex-start;
     justify-content: center;
     align-items: flex-start;
     height: 160vh;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 3rem;
     left: 10%;
 }
 
@@ -921,18 +923,24 @@ span {
 }
 
 .main-context > div:first-child span{
-    background: rgba(0, 0, 0, 0.62);
-    color: white;
+    color: black;
 }
 .main-context > div:first-child .text {
     color: #ccf033;
     background: black;
 }
 .main-context > div:nth-child(2) span{
-    background: rgba(255, 255, 255, 0.62);
     color: black;
 }
 .main-context > div:nth-child(2) .text {
+    color: #ccf033;
+    background: black;
+}
+.main-context > div:nth-child(3) .text {
+    color: #ccf033;
+    background: black;
+}
+.main-context > div:nth-child(4) .text {
     color: #ccf033;
     background: black;
 }

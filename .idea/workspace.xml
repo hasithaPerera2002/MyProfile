@@ -2,46 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af5c1846-572f-49e6-92b6-306a4a1df1a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/demo/async.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/demo/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/demo/simple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/dist/aos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/dist/aos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/src/js/aos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/src/js/helpers/calculateOffset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/src/js/helpers/detector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/src/js/helpers/elements.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/src/js/helpers/handleScroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/src/js/helpers/prepare.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/src/js/libs/observer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/src/js/libs/offset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/src/sass/_animations.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/src/sass/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/src/sass/_easing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/src/sass/aos.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/test/aos.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/test/calculateOffset.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/test/elements.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/test/fixtures/aos-offset.fixture.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/test/fixtures/aos.fixture.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/test/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/aos-master/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/video/Car Animation.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/video/Simple Web Layout.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/video/Untitled design.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/video/fashion-store.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/script/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/script/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/stylesheets/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -73,12 +38,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/video" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyProjects/FashionStore" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -146,7 +112,8 @@
       <workItem from="1684252546605" duration="4371000" />
       <workItem from="1684291336030" duration="992000" />
       <workItem from="1684403720841" duration="26692000" />
-      <workItem from="1684481866205" duration="9941000" />
+      <workItem from="1684481866205" duration="9979000" />
+      <workItem from="1684507916012" duration="2392000" />
     </task>
     <task id="LOCAL-00002" summary="second commit">
       <created>1681860587773</created>
@@ -225,19 +192,28 @@
       <option name="project" value="LOCAL" />
       <updated>1684441628481</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="8">
+      <created>1684507440021</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684507440021</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="second commit" />
     <MESSAGE value="3" />
     <MESSAGE value="4" />
     <MESSAGE value="5" />
     <MESSAGE value="6" />
     <MESSAGE value="7" />
-    <option name="LAST_COMMIT_MESSAGE" value="7" />
+    <MESSAGE value="8" />
+    <option name="LAST_COMMIT_MESSAGE" value="8" />
   </component>
 </project>
