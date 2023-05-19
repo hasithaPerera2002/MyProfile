@@ -686,10 +686,9 @@ span {
     top: 21rem;
     display: flex;
     position: absolute;
-    width: 75%;
+    width: 80%;
     justify-content: center;
     align-items: flex-start;
-
     height: 160vh;
     flex-wrap: wrap;
     gap: 2rem;
@@ -700,9 +699,7 @@ span {
     margin-top: 2rem;
 }
 
-.main-context > div:first-child, .main-context > div:nth-child(6) {
-    width: 19rem;
-}
+
 
 .main-context > div:first-child .text {
     color: whitesmoke;
@@ -712,9 +709,6 @@ span {
     margin-top: 3rem;
 }
 
-.main-context > div:nth-child(5), .main-context > div:nth-child(3) {
-    width: 22rem;
-}
 
 .card {
     position: relative;
@@ -790,10 +784,15 @@ span {
 }
 
 .moon {
+    top: 15%;
     z-index: -1;
+    left: 11%;
+    transform-style: preserve-3d;
     position: absolute;
     height: 8rem;
     width: 8rem;
+    perspective: 10rem;
+    transform: scale(2) translateZ(-10rem);
 }
 
 .moon > img {
@@ -808,6 +807,7 @@ span {
 }
 
 #home {
+
     height: 100vh;
     position: relative;
 }
@@ -920,4 +920,19 @@ span {
     0 0 100px #D3D3D3;
 }
 
-
+.main-context > div:first-child span{
+    background: rgba(0, 0, 0, 0.62);
+    color: white;
+}
+.main-context > div:first-child .text {
+    color: #ccf033;
+    background: black;
+}
+.main-context > div:nth-child(2) span{
+    background: rgba(255, 255, 255, 0.62);
+    color: black;
+}
+.main-context > div:nth-child(2) .text {
+    color: #ccf033;
+    background: black;
+}

@@ -7,7 +7,7 @@
     <meta name="og:title" content="Hasitha's website">
     <title>MyProfile</title>
     <link rel="stylesheet" href="assets/stylesheets/home.css">
-
+    <link rel="stylesheet" href="assets/aos-master/dist/aos.css">
 </head>
 <body>
 <nav>
@@ -24,38 +24,38 @@
     </div>
 </nav>
 <section id="home">
-<canvas class="particle-net loading-screen visible">
-</canvas>
-<svg width="200" height="200" viewBox="0 0 40 60" class="visible svg-anime">
-    <polygon class="triangle" fill="none" stroke="#fff" stroke-width="1" points="16,1 32,32 1,32"/>
-    <text class="loading" x="0" y="45" fill="#fff" >Loading...</text>
-</svg>
-<a href="" class="loading-screen mouse-loading-text visible">move your mouse!</a>
+    <canvas class="particle-net loading-screen visible">
+    </canvas>
+    <svg width="200" height="200" viewBox="0 0 40 60" class="visible svg-anime">
+        <polygon class="triangle" fill="none" stroke="#fff" stroke-width="1" points="16,1 32,32 1,32"/>
+        <text class="loading" x="0" y="45" fill="#fff">Loading...</text>
+    </svg>
+    <a href="" class="loading-screen mouse-loading-text visible">move your mouse!</a>
 
-<!-- name-->
-<p class="para text1">HI THERE... IT'S ME</p>
-<div class="para name">
-    <span class="letter"  id="H" data-text="H" >H</span
-    ><span class="letter"  id="A" data-text="A">A</span
+    <!-- name-->
+    <p class="para text1">HI THERE... IT'S ME</p>
+    <div class="para name">
+    <span class="letter" id="H" data-text="H">H</span
+    ><span class="letter" id="A" data-text="A">A</span
     ><span class="letter" data-text="S">S</span
     ><span class="letter" data-text="I">I</span
     ><span class="letter" data-text="T">T</span
     ><span class="letter" data-text="H">H</span
     ><span class="letter" data-text="A">A</span>
-    <span class="letter" data-text="P">P</span
-    ><span class="letter" data-text="E">E</span
+        <span class="letter" data-text="P">P</span
+        ><span class="letter" data-text="E">E</span
     ><span class="letter" data-text="R">R</span
     ><span class="letter" data-text="R">E</span
     ><span class="letter" data-text="R">R</span
     ><span class="letter" data-text="H">A</span>
 
-</div>
-<p class="para text2">A software engineering student who loves music.
-    As a software engineer, I bring creativity, precision,
-    and attention to detail to my work. Let's connect and explore
-    the intersection of  technology.</p>
+    </div>
+    <p class="para text2">A software engineering student who loves music.
+        As a software engineer, I bring creativity, precision,
+        and attention to detail to my work. Let's connect and explore
+        the intersection of technology.</p>
     <div class="social">
-        <ul >
+        <ul>
             <li><img src="assets/svgs/brands/square-facebook.svg" alt="facebook-svg"></li>
             <li><img src="assets/svgs/brands/square-instagram.svg" alt="instagram-svg"></li>
             <li><img src="assets/svgs/brands/square-whatsapp.svg" alt="whatsapp-svg"></li>
@@ -70,29 +70,32 @@
     <div class="moon">
         <img src="assets/img/moon.png" alt="moon">
     </div>
-    <a href="">PROJECTS</a>
+    <a href="" id="project-txt" data-aos="fade-up" data-aos-duration="3000">PROJECTS</a>
     <div class="main-context">
-        <div >
-            <div class="card" data-aos="zoom-out-left">
+        <div data-aos="fade-up"
+             data-aos-duration="3000">
+            <div class="card">
                 <img src="assets/img/fStore.png" class="img" alt="image of project">
                 <section class="textBox">
                     <p class="text head">FASHION STORE</p>
-                    <span>
+                    <span >
                     THIS PROJECT IS DONE USING HIBERNATE FRAMEWORK AND LAYERED ARCHITECTURE
                 </span>
-                    <a href="https://github.com/hasithaPerera2002/FashionStore">click here</a>
+                    <a href="https://github.com/hasithaPerera2002/FashionStore" target="_blank">click here</a>
                 </section>
             </div>
         </div>
-        <div>
-            <div class="card">
+        <div data-aos="fade-down"
+             data-aos-easing="linear"
+             data-aos-duration="1500">
+            <div class="card" >
                 <img src="assets/img/Hostel.png" class="img" alt="image of project">
                 <section class="textBox">
                     <p class="text head">HOSTEL MANAGEMENT SYSTEM</p>
                     <span style="color: black">
                     THIS PROJECT IS DONE USING HIBERNATE FRAMEWORK AND LAYERED ARCHITECTURE
                 </span>
-                    <a href="https://github.com/hasithaPerera2002/hibernate_final">click here</a>
+                    <a href="https://github.com/hasithaPerera2002/hibernate_final" target="_blank">click here</a>
                 </section>
             </div>
         </div>
@@ -140,6 +143,9 @@
 </body>
 
 <script src="assets/script/jquery-3.6.3.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="assets/aos-master/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <script src="assets/script/script.js"></script>
 </html>

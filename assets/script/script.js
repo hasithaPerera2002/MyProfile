@@ -6,18 +6,19 @@ $(document).ready(()=>{
             $('.visible').css({display:'none'})
             $('.para').css({display: 'block'})
         }, 100);
-
-
 })
+let moon = $('.moon');
 $(window).scroll(()=>{
-    console.log($(window).scrollTop())
+    let scrollY = $('#projects').scrollTop;
     if ($(window).scrollTop()>100){
         $('.nav-bar').css({opacity:'1'})
     }else {
         $('.nav-bar').css({opacity:'0'})
     }
-})
 
+});
+
+//==============================================================
 $(document).ready()
 let c = init("canvas"),
     w = (canvas.width = window.innerWidth),
