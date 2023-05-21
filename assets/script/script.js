@@ -17,17 +17,25 @@ $(window).scroll(()=>{
     }
 
 });
-//moon animation---------------------
+//moon and ufo animation---------------------
  // Variable to track if the target element has been passed
 
 $(window).scroll(function() {
-    var projectSection = $("#projects");
+    let projectSection = $("#projects");
 
-    var scrollProject = projectSection.offset().top - $(window).scrollTop();
+    let scrollProject = projectSection.offset().top - $(window).scrollTop();
     console.log(scrollProject)
-    var moon = $('.moon');
+    let moon = $('.moon');
+    let ufo = $('#animated-ufo');
+    let rocket = $('#rocket');
+    let galaxy = $('#galaxy');
     moon.css({ marginTop: -scrollProject/2});
-
+    console.log(ufo)
+    ufo.css({marginLeft: scrollProject/1.1,
+                    marginTop: -scrollProject/7});
+    rocket.css({marginTop:scrollProject/5,
+                        marginLeft: -scrollProject});
+    galaxy.css({})
 });
 
 
@@ -206,7 +214,7 @@ var Particle = function(x, y){
     this.childs = [];
     this.linked = false;
     this.distance = false;
-    this.alpha = 0.3;
+    this.alpha = 0.4;
 
     this.jointAlpha = this.alpha;
     this.linkAlpha = this.alpha;

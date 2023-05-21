@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af5c1846-572f-49e6-92b6-306a4a1df1a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/ghost.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/ghost1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/astro.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/fictional-planet-with-colourful-night-sky-stars-nebula.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/rocket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/space-galaxy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/taxi-ufo.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/image_processing20220801-17461-1m9zilq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/script/jquery-3.6.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/script/jquery-3.6.3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Hostel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/astronaut2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/fStore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ghost1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/planet1.gif" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/script/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/script/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/stylesheets/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -119,7 +125,7 @@
       <workItem from="1684537935544" duration="832000" />
       <workItem from="1684549999931" duration="2580000" />
       <workItem from="1684581722379" duration="1104000" />
-      <workItem from="1684652459597" duration="10954000" />
+      <workItem from="1684652459597" duration="20596000" />
     </task>
     <task id="LOCAL-00002" summary="second commit">
       <created>1681860587773</created>
@@ -212,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684511889251</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="10">
+      <created>1684676662222</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1684676662222</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +241,7 @@
     <MESSAGE value="7" />
     <MESSAGE value="8" />
     <MESSAGE value="9" />
-    <option name="LAST_COMMIT_MESSAGE" value="9" />
+    <MESSAGE value="10" />
+    <option name="LAST_COMMIT_MESSAGE" value="10" />
   </component>
 </project>
