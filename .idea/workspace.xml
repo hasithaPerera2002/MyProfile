@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af5c1846-572f-49e6-92b6-306a4a1df1a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/video/Car Animation.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/video/Simple Web Layout.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/video/Untitled design.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/video/fashion-store.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/ghost.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/ghost1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/image_processing20220801-17461-1m9zilq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/script/jquery-3.6.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/script/jquery-3.6.3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/script/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/script/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/stylesheets/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -44,16 +45,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MyProjects/FashionStore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyProfile\assets\img" />
       <recent name="E:\MyProfile\assets\video" />
       <recent name="E:\MyProfile\assets" />
-      <recent name="E:\MyProfile\assets\img" />
       <recent name="E:\MyProfile\assets\project_img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -113,7 +114,12 @@
       <workItem from="1684291336030" duration="992000" />
       <workItem from="1684403720841" duration="26692000" />
       <workItem from="1684481866205" duration="9979000" />
-      <workItem from="1684507916012" duration="2392000" />
+      <workItem from="1684507916012" duration="2715000" />
+      <workItem from="1684516823023" duration="6181000" />
+      <workItem from="1684537935544" duration="832000" />
+      <workItem from="1684549999931" duration="2580000" />
+      <workItem from="1684581722379" duration="1104000" />
+      <workItem from="1684652459597" duration="10954000" />
     </task>
     <task id="LOCAL-00002" summary="second commit">
       <created>1681860587773</created>
@@ -199,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684507440021</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="9">
+      <created>1684511889251</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684511889251</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +227,7 @@
     <MESSAGE value="6" />
     <MESSAGE value="7" />
     <MESSAGE value="8" />
-    <option name="LAST_COMMIT_MESSAGE" value="8" />
+    <MESSAGE value="9" />
+    <option name="LAST_COMMIT_MESSAGE" value="9" />
   </component>
 </project>

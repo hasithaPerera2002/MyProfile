@@ -7,7 +7,6 @@ body {
     background-color: #030918;
 }
 
-
 @media (min-width: 300px) and (max-width: 450px) {
     .name {
         top: 9rem !important;
@@ -205,13 +204,13 @@ body {
     height: 100vh;
     width: 99%;
     background: #030918;
-    z-index: 12;
+    z-index: 100;
     cursor: none;
 }
 
 .svg-anime {
 
-    z-index: 15;
+    z-index: 101;
     top: 45%;
     left: 45%;
 }
@@ -224,6 +223,7 @@ body {
 }
 
 .mouse-loading-text {
+    z-index: 101;
     font-family: 'Orbitron', sans-serif;
     animation: blink .9s ease-in-out infinite alternate;
     color: white;
@@ -272,6 +272,28 @@ nav {
     gap: 3rem;
     list-style: none;
 
+}
+
+.nav-bar-items > a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar-ul > li::before {
+    content: "";
+    z-index: 10;
+    bottom: -10%;
+    left: 20%;
+    width: 0;
+    position: absolute;
+    height: .1rem;
+    background-color: #ccf033;
+    transition: all 1s;
+}
+.nav-bar-ul > li:hover::before{
+    left: -10%;
+    color: #ccf033;
+    width: 100%;
 }
 
 .nav-bar-ul > li {
@@ -629,7 +651,7 @@ span {
 }
 
 .name > .letter {
-    transition: transform 350ms, color 150ms,background-color 100ms ease-out;
+    transition: transform 350ms, color 150ms, background-color 100ms ease-out;
 }
 
 .name:hover > .letter {
@@ -691,7 +713,7 @@ span {
     align-content: flex-start;
     justify-content: center;
     align-items: flex-start;
-    height: 160vh;
+    height: 300vh;
     flex-wrap: wrap;
     gap: 3rem;
     left: 10%;
@@ -700,7 +722,6 @@ span {
 .main-context > div:first-child, .main-context > div:nth-child(4) {
     margin-top: 2rem;
 }
-
 
 
 .main-context > div:first-child .text {
@@ -786,15 +807,14 @@ span {
 }
 
 .moon {
-    top: 15%;
+    top: 10%;
     z-index: -1;
-    left: 11%;
-    transform-style: preserve-3d;
+    left:5%;
     position: absolute;
-    height: 8rem;
-    width: 8rem;
+    height: 50rem;
+    width: 50rem;
     perspective: 10rem;
-    transform: scale(2) translateZ(-10rem);
+
 }
 
 .moon > img {
@@ -804,7 +824,7 @@ span {
 
 #projects {
     overflow: hidden;
-    height: 160vh;
+    height: 250vh;
     position: relative;
 }
 
@@ -816,7 +836,7 @@ span {
 
 #projects > a {
 
-    transform: translate(12rem, 12rem);
+    transform: translate(13rem, 12rem);
     text-decoration: none;
     color: white;
     position: absolute;
@@ -873,7 +893,7 @@ span {
 
 }
 
-.social>ul>li:first-child:hover,:focus {
+.social > ul > li:first-child:hover {
 
     background: #008cff;
     border: 1px solid #008cff;
@@ -885,9 +905,10 @@ span {
     0 0 50px #008cff,
     0 0 100px #008cff;
 }
-.social>ul>li:nth-child(2):hover,:focus {
 
-    background:  linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); ;
+.social > ul > li:nth-child(2):hover{
+
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);;
     border: 1px solid #f09433;
     text-shadow: 0 0 5px #bc1888,
     0 0 10px #bc1888,
@@ -897,7 +918,8 @@ span {
     0 0 50px #bc1888,
     0 0 100px #e6683c;
 }
-.social>ul>li:nth-child(3):hover,:focus {
+
+.social > ul > li:nth-child(3):hover  {
     color: #ffffff;
     background: #25D366;
     border: 1px solid #25D366;
@@ -909,7 +931,8 @@ span {
     0 0 50px #25D366,
     0 0 100px #25D366;
 }
-.social>ul>li:nth-child(4):hover,:focus {
+
+.social > ul > li:nth-child(4):hover  {
     color: #ffffff;
     background: #D3D3D3;
     border: 1px solid #D3D3D3;
@@ -922,25 +945,96 @@ span {
     0 0 100px #D3D3D3;
 }
 
-.main-context > div:first-child span{
+.main-context > div:first-child span {
     color: black;
 }
+
 .main-context > div:first-child .text {
     color: #ccf033;
     background: black;
 }
-.main-context > div:nth-child(2) span{
+
+.main-context > div:nth-child(2) span {
     color: black;
 }
+
 .main-context > div:nth-child(2) .text {
     color: #ccf033;
     background: black;
 }
+
 .main-context > div:nth-child(3) .text {
     color: #ccf033;
     background: black;
 }
+
 .main-context > div:nth-child(4) .text {
     color: #ccf033;
     background: black;
+}
+
+
+.animated-ghost{
+    border: 1px solid black;
+    box-shadow: 0 0 5px black,
+    0 0 20px black,
+    0 0 50px #030918,
+    0 0 70px #030918,
+    0 0 100px #030918;
+    top: 40rem;
+    right: 10%;
+    position: absolute;
+    width: 13rem;
+    height: 13rem;
+    z-index: 2;
+    mix-blend-mode: hard-light;
+}
+
+.animated-ghost>img{
+
+    height: 100%;
+    width: 100%;
+}
+.project-about-section{
+    position: relative;
+}
+#about-me {
+
+    height: 100vh;
+    position: relative;
+    width: 100%;
+
+}
+
+#about-me > a {
+    left: 15%;
+    transform: translate(13rem, 12rem);
+    text-decoration: none;
+    color: white;
+    position: relative;
+    font-family: "Vina Sans", serif;
+    font-size: 6rem;
+    font-weight: bold;
+}
+.about-me{
+    display: flex;
+    top: 25%;
+    left: 15%;
+    width: 80%;
+    height: 75%;
+    position: absolute;
+
+}
+.about-me div{
+    flex: 1;
+}
+.about-me p{
+
+    line-height: 1.7rem;
+    font-family: 'Manrope',sans-serif;
+    font-size: larger;
+    color: #ffffff;
+}
+.about-me img{
+    height: fit-content;
 }

@@ -7,9 +7,9 @@ $(document).ready(()=>{
             $('.para').css({display: 'block'})
         }, 100);
 })
-let moon = $('.moon');
+
 $(window).scroll(()=>{
-    let scrollY = $('#projects').scrollTop;
+
     if ($(window).scrollTop()>100){
         $('.nav-bar').css({opacity:'1'})
     }else {
@@ -17,6 +17,19 @@ $(window).scroll(()=>{
     }
 
 });
+//moon animation---------------------
+ // Variable to track if the target element has been passed
+
+$(window).scroll(function() {
+    var projectSection = $("#projects");
+
+    var scrollProject = projectSection.offset().top - $(window).scrollTop();
+    console.log(scrollProject)
+    var moon = $('.moon');
+    moon.css({ marginTop: -scrollProject/2});
+
+});
+
 
 //==============================================================
 $(document).ready()

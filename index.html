@@ -16,10 +16,10 @@
     </div>
     <div class="nav-bar">
         <ul class="nav-bar-ul">
-            <li class="nav-bar-items">HOME</li>
-            <li class="nav-bar-items">ABOUT</li>
-            <li class="nav-bar-items">PROJECTS</li>
-            <li class="nav-bar-items">CONTACT</li>
+            <li class="nav-bar-items"><a href="#H">HOME</a></li>
+            <li class="nav-bar-items"><a href="#about-me">ABOUT</a></li>
+            <li class="nav-bar-items"><a href="#projects">PROJECTS</a></li>
+            <li class="nav-bar-items"><a href="">CONTACT</a></li>
         </ul>
     </div>
 </nav>
@@ -41,9 +41,9 @@
     ><span class="letter" data-text="I">I</span
     ><span class="letter" data-text="T">T</span
     ><span class="letter" data-text="H">H</span
-    ><span class="letter" data-text="A">A</span>
-        <span class="letter" data-text="P">P</span
-        ><span class="letter" data-text="E">E</span
+    ><span class="letter" data-text="A">A</span
+    ><span class="letter" data-text="P">P</span
+    ><span class="letter" data-text="E">E</span
     ><span class="letter" data-text="R">R</span
     ><span class="letter" data-text="R">E</span
     ><span class="letter" data-text="R">R</span
@@ -65,12 +65,19 @@
 </section>
 
 <canvas id="canvas"></canvas>
+<div class="animated-ghost">
+    <img src="assets/img/ghost.gif" alt="gi of a ghost">
+</div>
+<div>
+    <img src="" alt="">
+</div>
 <!--project section-->
-<section id="projects">
+<section class="project-about-section">
     <div class="moon">
         <img src="assets/img/moon.png" alt="moon">
     </div>
-    <a href="" id="project-txt" data-aos="fade-up" data-aos-duration="3000">PROJECTS</a>
+<section id="projects">
+    <a id="project-txt" data-aos="fade-up" data-aos-duration="3000">PROJECTS</a>
     <div class="main-context">
         <div data-aos="fade-up"
              data-aos-duration="3000">
@@ -133,6 +140,31 @@
     </div>
 </section>
 
+<!--about me-->
+<section id="about-me">
+    <a >ABOUT ME</a>
+    <div class="about-me">
+        <div>
+            <p>
+                I'm Hasitha Perera, a passionate software engineering student with a love for creating innovative solutions.
+                Currently pursuing my Degree in Software Engineering,
+                I'm dedicated to expanding my knowledge and honing my skills in this dynamic field.
+                <br><br>
+                Throughout my academic journey, I have gained a solid foundation in programming languages such as Java,JavaScript, as well as experience in CSS,mySql,Hibernate,Spring. I enjoy tackling complex problems and transforming ideas into functional, user-centric applications.
+                <br><br>
+                Collaboration is at the heart of my work. I thrive in team environments, leveraging my strong communication and problem-solving skills to contribute effectively. By understanding user needs and applying best practices, I aim to deliver intuitive and efficient software solutions.
+                I'm enthusiastic about staying up-to-date with emerging technologies and industry trends. Whether it's exploring new frameworks, attending workshops, or participating in coding challenges, I am always seeking opportunities to expand my skill set and embrace innovation.
+                <br><br>
+                Thank you for visiting my portfolio website. Please feel free to explore my projects and get in touch if you have any inquiries or potential collaborations. I'm excited to connect with fellow professionals and contribute to the ever-evolving world of software engineering!
+            </p>
+        </div>
+        <div>
+            <img src="assets/img/result%20(3).png" alt="photo of me">
+        </div>
+
+    </div>
+</section>
+</section>
 <footer>Copyright ©2022 Hasitha Perera. All Right Reserved.</footer>
 
 </body>
@@ -143,4 +175,9 @@
     AOS.init();
 </script>
 <script src="assets/script/script.js"></script>
+<script>
+
+
+
+</script>
 </html>
