@@ -27,15 +27,15 @@ $(window).scroll(function() {
     console.log(scrollProject)
     let moon = $('.moon');
     let ufo = $('#animated-ufo');
-    let rocket = $('#rocket');
+    let astro = $('#astro');
     let galaxy = $('#galaxy');
     moon.css({ marginTop: -scrollProject/2});
-    console.log(ufo)
+
     ufo.css({marginLeft: scrollProject/1.1,
                     marginTop: -scrollProject/7});
-    rocket.css({marginTop:scrollProject/5,
-                        marginLeft: -scrollProject});
-    galaxy.css({})
+    astro.css({marginTop:-scrollProject/10,
+        marginLeft: -scrollProject/2});
+    galaxy.css({marginTop:-scrollProject/6})
 });
 
 
