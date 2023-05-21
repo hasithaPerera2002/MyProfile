@@ -1046,10 +1046,13 @@ span {
 }
 
 #about-me > a {
+    top: 10rem;
     left: 15%;
     transform: translate(13rem, 12rem);
     text-decoration: none;
     color: white;
+    text-shadow: 0 0 2px black,
+    0 0 5px white;
     position: relative;
     font-family: "Vina Sans", serif;
     font-size: 6rem;
@@ -1161,4 +1164,102 @@ span {
     0 0 20px #ccf033,
     0 0 50px #D3D3D3,
     0 0 100px #1da4e2;
+}
+#contact-me{
+    position: relative;
+    height: 100vh;
+}
+#planet{
+    left: 10%;
+    bottom: 0;
+    width: 80%;
+    height: 90%;
+    position: absolute;
+    box-shadow: 0 0 5px #030918,
+    0 0 20px #030918,
+    0 0 50px #030918,
+    0 0 100px #030918;
+    mix-blend-mode: lighten;
+
+}
+#planet>img{
+    box-shadow: 0 0 5px #030918,
+    0 0 20px #030918,
+    0 0 50px #030918,
+    0 0 100px #030918;
+    width: 100%;
+    height: 100%;
+}
+
+form {
+    padding-left:2%;
+    padding-right:2%;
+    padding-top:6%;
+    left: 15%;
+    margin: 10% auto;
+
+    border-radius: 20px;
+    position:absolute;
+    z-index:1;
+    box-shadow: 0 0 10px #1da4e2,
+    0 0 15px #56ccff;
+}
+
+form > div{
+    position:absolute;
+    top:0;
+    left:50%;
+    padding:0 20%;
+    transform:translate(-50%,-50%);
+    background-color:transparent;
+    border: 2px solid #ccc;
+    border-radius: 1%;
+    text-align:center;
+}
+
+form > div > img{
+    filter:invert(1);
+    width:40%;
+}
+
+form > input,
+form > textarea {
+    padding: 12px;
+    margin: 12px auto;
+    border: 1px solid #ccc;
+    color: #ddd;
+    background-color: transparent;
+    border-radius: 4px;
+    display: block;
+    width: 70vw;
+}
+
+form > textarea{
+    height:100px;
+    resize:none;
+}
+
+form > input[type="submit"] {
+    max-width: 20vw;
+    padding-left: 1%;
+    padding-right: 1%;
+    cursor: pointer;
+    transition: 0.35s;
+}
+
+form > input[type="submit"]:hover {
+    background-color: rgba(147, 249, 185, 0.73);
+}
+.circle {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(to top left, #0062bE, #00A2FE);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -20px 0 0 -20px;
+    pointer-events: none;
+    mix-blend-mode: multiply;
+    z-index: 10;
 }
