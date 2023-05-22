@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af5c1846-572f-49e6-92b6-306a4a1df1a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/planet-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/planet-3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/script/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/script/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/stylesheets/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/home.css" afterDir="false" />
@@ -117,6 +118,7 @@
       <workItem from="1684549999931" duration="2580000" />
       <workItem from="1684581722379" duration="1104000" />
       <workItem from="1684652459597" duration="34194000" />
+      <workItem from="1684746336620" duration="18185000" />
     </task>
     <task id="LOCAL-00002" summary="second commit">
       <created>1681860587773</created>

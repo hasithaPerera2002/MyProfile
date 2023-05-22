@@ -22,22 +22,84 @@ $(window).scroll(()=>{
 
 $(window).scroll(function() {
     let projectSection = $("#projects");
+    let aboutSection = $("#about-me");
 
     let scrollProject = projectSection.offset().top - $(window).scrollTop();
+    let scrollProject2 = aboutSection.offset().top - $(window).scrollTop();
     console.log(scrollProject)
     let moon = $('.moon');
     let ufo = $('#animated-ufo');
     let astro = $('#astro');
     let galaxy = $('#galaxy');
+    let planet = $('#planet-2');
+    let planet3 = $('#planet-3');
     moon.css({ marginTop: -scrollProject/2});
 
     ufo.css({marginLeft: scrollProject/1.1,
                     marginTop: -scrollProject/7});
     astro.css({marginTop:-scrollProject/10,
         marginLeft: -scrollProject/2});
-    galaxy.css({marginTop:-scrollProject/6})
+    galaxy.css({marginTop:-scrollProject})
+    planet.css({transform:'scale(' + scrollProject/1000 + ')',
+        marginTop:-scrollProject2/5})
+    planet3.css({transform:'scale(' + -scrollProject/1000 + ')'})
+
+
+
+
+});
+$(window).scroll(function() {
+    let scrollPercentage = ($(window).scrollTop() + $(window).height()) / $(document).height();
+    let path = $('.path');
+    path.css({display:'inline-block'})
+    let totalLength = path[0].getTotalLength();
+    let drawLength = totalLength * scrollPercentage;
+
+    path.css({
+        'stroke-dasharray': totalLength,
+        'stroke-dashoffset': totalLength - drawLength,
+        'stroke': 'rgba(106, 201, 241, ' + scrollPercentage + ')'
+    });
+});
+$(document).ready(function() {
+    let $circle = $('#circle');
+    let currentX = 0;
+    let currentY = 0;
+    let targetX = 0;
+    let targetY = 0;
+
+    $(document).on('mousemove', function(event) {
+        targetX = event.clientX - ($circle.width() / 2);
+        targetY = event.clientY - ($circle.height() / 2);
+
+    });
+
+    setInterval(function() {
+        let dx = (targetX - currentX) * 0.1;
+        let dy = (targetY - currentY) * 0.1;
+        currentX += dx;
+        currentY += dy;
+        $circle.css({
+            top: currentY + 'px',
+            left: currentX + 'px'
+        });
+
+
+    }, 16);
 });
 
+
+// let path = $('.path');
+// let totalLength = path.getTotalLength();
+// path.style.strokeDasharray= totalLength+''+totalLength;
+// path.style.strokeDashoffset=totalLength;
+// $(window).scroll(()=>{
+//     let newVar = ($(document).scrollTop() + $(document.body).scrollTop()) / ($(document).height() - $(window).height());
+//     let drawLength = totalLength * newVar;
+//     path.style.strokeDashoffset = (totalLength - drawLength)+'px';
+//
+//
+// })
 
 //==============================================================
 $(document).ready()
@@ -460,38 +522,3 @@ $canvas = document.querySelector('.particle-net');
 new ParticleNet($canvas);
 
 
-class Kinet {
-    constructor() {
-
-    }
-
-}
-
-let kinet = new Kinet({
-    acceleration: 0.06,
-    friction: 0.20,
-    names: ["x", "y"],
-});
-
-// select circle element
-var circle = document.getElementById('circle');
-
-// set handler on kinet tick event
-kinet.on('tick', function(instances) {
-    circle.style.transform = `translate3d(${ (instances.x.current) }px, ${ (instances.y.current) }px, 0) rotateX(${ (instances.x.velocity/2) }deg) rotateY(${ (instances.y.velocity/2) }deg)`;
-});
-
-// call kinet animate method on mousemove
-document.addEventListener('mousemove', function (event) {
-    kinet.animate('x', event.clientX - window.innerWidth/2);
-    kinet.animate('y', event.clientY - window.innerHeight/2);
-});
-
-
-kinet.on('start', function() {
-    console.log('start');
-});
-
-kinet.on('end', function() {
-    console.log('end');
-});

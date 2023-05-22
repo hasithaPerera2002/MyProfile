@@ -242,7 +242,7 @@ p{
 nav {
     justify-content: space-evenly;
     display: flex;
-    z-index: 100;
+    z-index: 10;
     top: 0;
     position: fixed;
     width: 100%;
@@ -357,10 +357,12 @@ footer {
 }
 
 body:has(.name:hover) .para:not(.name) {
+
     opacity: .2;
 }
 
 .name {
+
     background-color: transparent;
     font-weight: bold;
     animation: show 6s;
@@ -658,6 +660,7 @@ span {
 }
 
 .name:hover > .letter {
+
     transition-duration: 900ms;
 
 }
@@ -878,6 +881,7 @@ span {
     font-family: "Vina Sans", serif;
     font-size: 6rem;
     font-weight: bold;
+
 }
 
 .social {
@@ -909,6 +913,7 @@ span {
 }
 
 .social li {
+
     background-color: #fff;
     align-items: center;
     flex: 1;
@@ -919,6 +924,15 @@ span {
     display: inline-flex;
     transition: 1s;
     position: relative;
+
+}
+.social li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
 }
 
 .social li img {
@@ -927,7 +941,21 @@ span {
     width: 40%;
 
 }
-
+.social > ul > li:first-child{
+    animation: tilting 2s infinite alternate-reverse;
+}
+.social > ul > li:nth-child(2){
+    animation: tilting 2s infinite alternate-reverse;
+    animation-delay: .5s;
+}
+.social > ul > li:nth-child(3){
+    animation: tilting 2s infinite alternate-reverse;
+    animation-delay: 1s;
+}
+.social > ul > li:nth-child(4){
+    animation: tilting 2s infinite alternate-reverse;
+    animation-delay: 1.5s;
+}
 .social > ul > li:first-child:hover {
 
     background: #008cff;
@@ -979,7 +1007,9 @@ span {
     0 0 50px #D3D3D3,
     0 0 100px #D3D3D3;
 }
+.social>ul>li:hover{
 
+}
 .textBox> span {
     color: black;
     text-shadow: 0 0 5px #25D366,
@@ -1115,7 +1145,6 @@ span {
 #galaxy {
     mix-blend-mode: lighten;
     top: 55%;
-
     position: absolute;
     perspective: 10rem;
     left: 40%;
@@ -1129,6 +1158,47 @@ span {
     mix-blend-mode: hard-light;
     height: 100%;
 }
+#planet-2{
+
+    mix-blend-mode: lighten;
+    top: 65%;
+    position: absolute;
+    perspective: 10rem;
+    left: 3%;
+    width: 17%;
+    transform-style: preserve-3d;
+    height: 7%;
+
+}
+    @keyframes tilting {
+        from{
+            transform:translateY(.6rem)  rotate(2deg);
+        }to{
+        transform:translateX(0) rotate(-2deg);
+                 }
+    }
+#planet-2>img{
+    width: 100%;
+    height: 100%;
+}
+#planet-3{
+
+    mix-blend-mode: lighten;
+    top: 55%;
+    position: absolute;
+    perspective: 10rem;
+    left: 80%;
+    width: 15%;
+    transform-style: preserve-3d;
+    height: 7%;
+    animation: tilting 2s infinite alternate-reverse;
+
+}
+#planet-3>img{
+    width: 100%;
+    height: 100%;
+}
+
 .technologies{
     bottom: 10%;
     width: 70%;
@@ -1149,9 +1219,10 @@ span {
     width: 100%;
     display: flex;
 
-
 }
 .technologies-img div{
+    animation: tilting 2s infinite alternate-reverse;
+
     width: 10%;
     position: relative;
     flex: 1;
@@ -1250,16 +1321,35 @@ form > input[type="submit"] {
 form > input[type="submit"]:hover {
     background-color: rgba(147, 249, 185, 0.73);
 }
+#svg{
+    left: 0;
+    top: 0;
+    height: 100vh;
+    position: fixed;
+
+}
+svg{
+    height: 100%;
+    display: inline-block;
+    z-index: -1;
+}
 .circle {
-    width: 40px;
-    height: 40px;
-    background: linear-gradient(to top left, #0062bE, #00A2FE);
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -20px 0 0 -20px;
-    pointer-events: none;
-    mix-blend-mode: multiply;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 5%;
     z-index: 10;
+    height: 10%;
+    border: 2px solid white;
+    box-shadow: 0 0 5px white,
+                inset 0 0 5px white;
+    border-radius: 50%;
+
+    pointer-events: none; /* Ensure the circle doesn't interfere with mouse events */
+
+}
+
+
+.path{
+    display: none;
 }
