@@ -6,13 +6,42 @@ body {
 
     background-color: #030918;
 }
-p{
+
+p {
     pointer-events: none;
 }
+
 @media (min-width: 300px) and (max-width: 450px) {
     .name {
+        left: 6rem !important;
         top: 9rem !important;
-        font-size: 1.7rem !important;
+        font-size: 1.5rem !important;
+    }
+
+    .circle {
+        height: 6% !important;
+        width: 14% !important;
+    }
+
+    nav {
+        justify-content: flex-start !important;
+        left: 0 !important;
+    }
+
+    .animated-ghost {
+        top: 17rem !important;
+        height: 5rem !important;
+        width: 5rem !important;
+    }
+
+    /*.social>ul{*/
+    /*    left: 0 !important;*/
+    /*}*/
+    .social {
+        left: 2rem !important;
+        width: 15rem !important;
+        top: 22rem !important;
+        height: 2rem !important;
     }
 
     footer {
@@ -20,7 +49,13 @@ p{
     }
 
     .main-context {
-        top: 10rem !important;
+        top: 3rem !important;
+    }
+
+    .moon {
+        height: 27rem !important;
+        width: 26rem !important;
+        left: 0 !important;
     }
 
     .main-context > div {
@@ -34,8 +69,9 @@ p{
     }
 
     #projects > a {
+
         font-size: 2rem !important;
-        transform: translate(2rem, 5rem) !important;
+        transform: translate(2rem, 0) !important;
     }
 
     li {
@@ -67,17 +103,79 @@ p{
         top: 12rem !important;
         font-size: .5rem !important;
     }
+    #about-me{
+        height: 108vh !important;
+    }
+    #about-me > a {
+        font-size: 2rem !important;
+        top: 0 !important;
+    }
+
+    .about-me p {
+        word-spacing: 0.21rem !important;
+        height: 4rem;
+        width: 17rem !important;
+        line-height: .7rem !important;
+        top: 12rem !important;
+        font-size: .35rem !important;
+    }
+
+    .about-me {
+        height: 55% !important;
+        flex-direction: column;
+        top: 7% !important;
+    }
+    .about-me img{
+        height: 50% !important;
+    }
+    .technologies{
+        bottom: 20% !important;
+    }
+    .technologies>a{
+        font-size: 1rem !important;
+    }
+    #astro{
+        top: 50% !important;
+        left: -50% !important;
+        height: 5% !important;
+    }
+    #animated-ufo{
+        top: 53% !important;
+        left: 290% !important;
+    }
+    #planet-2 {
+
+        top: 75% !important;
+        height: 2% !important;
+    }
+
+    #planet-3 {
+        top: 65% !important;
+        height: 2% !important;
+    }
+    #planet{
+        height: 50% !important;
+    }
+    #contact-me{
+        height: 65vh !important;
+    }
+    form{
+        left: 6% !important;
+    }
+    /*#planet>img{*/
+    /*    height: 50% !important;*/
+    /*}*/
 }
 
 @media (min-width: 451px) and (max-width: 600px) {
     .name {
         top: 11.5rem !important;
-        font-size: 2.8rem !important;
+        font-size: 2.2rem !important;
     }
 
     .text1 {
         top: 9rem !important;
-        font-size: 1.3rem !important;
+        font-size: 1rem !important;
     }
 
     .text2 {
@@ -86,7 +184,11 @@ p{
         width: 90% !important;
         line-height: 1.4rem !important;
         top: 16rem !important;
-        font-size: .8rem !important;
+        font-size: .7rem !important;
+    }
+    .circle {
+        height: 9% !important;
+        width: 14% !important;
     }
 
     footer {
@@ -94,7 +196,7 @@ p{
     }
 
     .main-context {
-        top: 10rem !important;
+        top: 5rem !important;
     }
 
     .main-context > div {
@@ -109,7 +211,7 @@ p{
 
     #projects > a {
         font-size: 2rem !important;
-        transform: translate(2rem, 5rem) !important;
+        transform: translate(2rem, 0rem) !important;
     }
 
     .nav-bar-ul li {
@@ -127,10 +229,91 @@ p{
     .para {
         left: 2rem !important;
     }
+    .social {
+        left: 2rem !important;
+        width: 17rem !important;
+        top: 22rem !important;
+        height: 2rem !important;
+    }
+
+    .animated-ghost {
+        top: 27rem !important;
+        height: 7rem !important;
+        width: 7rem !important;
+    }
+    .moon {
+        height: 31rem !important;
+        width: 30rem !important;
+        left: 0 !important;
+    }
+    #about-me{
+        height: 108vh !important;
+    }
+    #about-me > a {
+        font-size: 3rem !important;
+        top: 0 !important;
+    }
+
+    .about-me p {
+        word-spacing: 0.21rem !important;
+        height: 4rem;
+        width: 17rem !important;
+        line-height: 1rem !important;
+        top: 12rem !important;
+        font-size: .5rem !important;
+    }
+
+    .about-me {
+        left: 6% !important;
+        height: 55% !important;
+        flex-direction: row;
+        top: 17% !important;
+    }
+    .about-me img{
+        height: 80% !important;
+    }
+    .technologies{
+        left: 6% !important;
+        bottom: 10% !important;
+    }
+    .technologies>a{
+        font-size: 1rem !important;
+    }
+    #astro{
+        top: 52% !important;
+        left: -50% !important;
+        height: 8% !important;
+    }
+    #animated-ufo{
+        top: 53% !important;
+        left: 200% !important;
+    }
+    #planet-2 {
+
+        top: 75% !important;
+        height: 5% !important;
+    }
+
+    #planet-3 {
+        top: 65% !important;
+        height: 4% !important;
+    }
+    #planet{
+        height: 52% !important;
+    }
+    #contact-me{
+        height: 65vh !important;
+    }
+    form{
+        left: 8% !important;
+    }
+    /*#planet>img{*/
+    /*    height: 50% !important;*/
+    /*}*/
 
 }
 
-@media (min-width: 601px) and (max-width: 850px) {
+@media (min-width: 601px) and (max-width: 750px) {
     .name {
         top: 11.5rem !important;
         font-size: 2.8rem !important;
@@ -187,6 +370,88 @@ p{
 
     .para {
         left: 2rem !important;
+    }
+    .circle {
+        height: 10% !important;
+        width: 10% !important;
+    }
+    .social {
+        left: 2rem !important;
+        width: 17rem !important;
+        top: 22rem !important;
+        height: 2rem !important;
+    }
+
+    .animated-ghost {
+        top: 27rem !important;
+        height: 7rem !important;
+        width: 7rem !important;
+    }
+    .moon {
+        height: 31rem !important;
+        width: 30rem !important;
+        left: 0 !important;
+    }
+    #about-me{
+        height: 108vh !important;
+    }
+    #about-me > a {
+        font-size: 3rem !important;
+        top: 0 !important;
+    }
+
+    .about-me p {
+        word-spacing: 0.21rem !important;
+        height: 4rem;
+        width: 17rem !important;
+        line-height: 1rem !important;
+        top: 12rem !important;
+        font-size: .5rem !important;
+    }
+
+    .about-me {
+        left: 6% !important;
+        height: 55% !important;
+        flex-direction: row;
+        top: 17% !important;
+    }
+    .about-me img{
+        height: 80% !important;
+    }
+    .technologies{
+        left: 6% !important;
+        bottom: 10% !important;
+    }
+    .technologies>a{
+        font-size: 1rem !important;
+    }
+    #astro{
+        top: 52% !important;
+        left: -50% !important;
+        height: 8% !important;
+    }
+    #animated-ufo{
+        top: 53% !important;
+        left: 200% !important;
+    }
+    #planet-2 {
+
+        top: 75% !important;
+        height: 5% !important;
+    }
+
+    #planet-3 {
+        top: 65% !important;
+        height: 4% !important;
+    }
+    #planet{
+        height: 52% !important;
+    }
+    #contact-me{
+        height: 65vh !important;
+    }
+    form{
+        left: 8% !important;
     }
 
 }
@@ -732,9 +997,11 @@ span {
     position: absolute;
     left: 40%;
 }
+
 .main-context > div:hover::after {
     display: none;
 }
+
 .main-context {
 
     top: 21rem;
@@ -908,7 +1175,7 @@ span {
     padding-left: 0;
     justify-content: space-between;
     flex: 1;
-    position: relative;
+    position: absolute;
 
 }
 
@@ -926,6 +1193,7 @@ span {
     position: relative;
 
 }
+
 .social li a {
     display: flex;
     justify-content: center;
@@ -941,21 +1209,26 @@ span {
     width: 40%;
 
 }
-.social > ul > li:first-child{
+
+.social > ul > li:first-child {
     animation: tilting 2s infinite alternate-reverse;
 }
-.social > ul > li:nth-child(2){
+
+.social > ul > li:nth-child(2) {
     animation: tilting 2s infinite alternate-reverse;
     animation-delay: .5s;
 }
-.social > ul > li:nth-child(3){
+
+.social > ul > li:nth-child(3) {
     animation: tilting 2s infinite alternate-reverse;
     animation-delay: 1s;
 }
-.social > ul > li:nth-child(4){
+
+.social > ul > li:nth-child(4) {
     animation: tilting 2s infinite alternate-reverse;
     animation-delay: 1.5s;
 }
+
 .social > ul > li:first-child:hover {
 
     background: #008cff;
@@ -1007,10 +1280,12 @@ span {
     0 0 50px #D3D3D3,
     0 0 100px #D3D3D3;
 }
-.social>ul>li:hover{
+
+.social > ul > li:hover {
 
 }
-.textBox> span {
+
+.textBox > span {
     color: black;
     text-shadow: 0 0 5px #25D366,
     0 0 10px beige,
@@ -1023,7 +1298,6 @@ span {
     color: #ccf033;
     background: black;
 }
-
 
 
 .main-context > div:nth-child(2) .text {
@@ -1112,6 +1386,7 @@ span {
 }
 
 .about-me img {
+    position: absolute;
     height: fit-content;
 }
 
@@ -1158,7 +1433,8 @@ span {
     mix-blend-mode: hard-light;
     height: 100%;
 }
-#planet-2{
+
+#planet-2 {
 
     mix-blend-mode: lighten;
     top: 65%;
@@ -1170,18 +1446,22 @@ span {
     height: 7%;
 
 }
-    @keyframes tilting {
-        from{
-            transform:translateY(.6rem)  rotate(2deg);
-        }to{
-        transform:translateX(0) rotate(-2deg);
-                 }
+
+@keyframes tilting {
+    from {
+        transform: translateY(.6rem) rotate(2deg);
     }
-#planet-2>img{
+    to {
+        transform: translateX(0) rotate(-2deg);
+    }
+}
+
+#planet-2 > img {
     width: 100%;
     height: 100%;
 }
-#planet-3{
+
+#planet-3 {
 
     mix-blend-mode: lighten;
     top: 55%;
@@ -1194,25 +1474,28 @@ span {
     animation: tilting 2s infinite alternate-reverse;
 
 }
-#planet-3>img{
+
+#planet-3 > img {
     width: 100%;
     height: 100%;
 }
 
-.technologies{
+.technologies {
     bottom: 10%;
     width: 70%;
     left: 15%;
     height: 10%;
     position: absolute;
 }
-.technologies>a{
+
+.technologies > a {
     font-family: "Vina Sans", serif;
     font-size: 2rem;
     font-weight: bold;
     color: white;
 }
-.technologies-img{
+
+.technologies-img {
     bottom: 10%;
     position: absolute;
     height: 35%;
@@ -1220,7 +1503,8 @@ span {
     display: flex;
 
 }
-.technologies-img div{
+
+.technologies-img div {
     animation: tilting 2s infinite alternate-reverse;
 
     width: 10%;
@@ -1228,7 +1512,8 @@ span {
     flex: 1;
 
 }
-.technologies-img>div img{
+
+.technologies-img > div img {
     height: 100%;
     background-color: #f6efcf;
     box-shadow: 0 0 5px #D3D3D3,
@@ -1236,11 +1521,13 @@ span {
     0 0 50px #D3D3D3,
     0 0 100px #1da4e2;
 }
-#contact-me{
+
+#contact-me {
     position: relative;
     height: 100vh;
 }
-#planet{
+
+#planet {
     left: 10%;
     bottom: 0;
     width: 80%;
@@ -1253,7 +1540,8 @@ span {
     mix-blend-mode: lighten;
 
 }
-#planet>img{
+
+#planet > img {
     box-shadow: 0 0 5px #030918,
     0 0 20px #030918,
     0 0 50px #030918,
@@ -1263,34 +1551,34 @@ span {
 }
 
 form {
-    padding-left:2%;
-    padding-right:2%;
-    padding-top:6%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 6%;
     left: 15%;
     margin: 10% auto;
 
     border-radius: 20px;
-    position:absolute;
-    z-index:1;
+    position: absolute;
+    z-index: 1;
     box-shadow: 0 0 10px #1da4e2,
     0 0 15px #56ccff;
 }
 
-form > div{
-    position:absolute;
-    top:0;
-    left:50%;
-    padding:0 20%;
-    transform:translate(-50%,-50%);
-    background-color:transparent;
+form > div {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding: 0 20%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
     border: 2px solid #ccc;
     border-radius: 1%;
-    text-align:center;
+    text-align: center;
 }
 
-form > div > img{
-    filter:invert(1);
-    width:40%;
+form > div > img {
+    filter: invert(1);
+    width: 40%;
 }
 
 form > input,
@@ -1305,9 +1593,9 @@ form > textarea {
     width: 70vw;
 }
 
-form > textarea{
-    height:100px;
-    resize:none;
+form > textarea {
+    height: 100px;
+    resize: none;
 }
 
 form > input[type="submit"] {
@@ -1321,18 +1609,21 @@ form > input[type="submit"] {
 form > input[type="submit"]:hover {
     background-color: rgba(147, 249, 185, 0.73);
 }
-#svg{
+
+#svg {
     left: 0;
     top: 0;
     height: 100vh;
     position: fixed;
 
 }
-svg{
+
+svg {
     height: 100%;
-    display: inline-block;
+    display: none;
     z-index: -1;
 }
+
 .circle {
     position: fixed;
     top: 0;
@@ -1342,7 +1633,7 @@ svg{
     height: 10%;
     border: 2px solid white;
     box-shadow: 0 0 5px white,
-                inset 0 0 5px white;
+    inset 0 0 5px white;
     border-radius: 50%;
 
     pointer-events: none; /* Ensure the circle doesn't interfere with mouse events */
@@ -1350,6 +1641,6 @@ svg{
 }
 
 
-.path{
+#svg {
     display: none;
 }

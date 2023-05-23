@@ -50,8 +50,10 @@ $(window).scroll(function() {
 });
 $(window).scroll(function() {
     let scrollPercentage = ($(window).scrollTop() + $(window).height()) / $(document).height();
-    let path = $('.path');
-    path.css({display:'inline-block'})
+    let path = $('#path');
+    let svg = $('#svg');
+    path.css({display:'inline-block'});
+
     let totalLength = path[0].getTotalLength();
     let drawLength = totalLength * scrollPercentage;
 
@@ -60,7 +62,10 @@ $(window).scroll(function() {
         'stroke-dashoffset': totalLength - drawLength,
         'stroke': 'rgba(106, 201, 241, ' + scrollPercentage + ')'
     });
+
+
 });
+
 $(document).ready(function() {
     let $circle = $('#circle');
     let currentX = 0;
