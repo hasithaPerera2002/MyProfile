@@ -315,8 +315,9 @@ p {
 
 @media (min-width: 601px) and (max-width: 750px) {
     .name {
+        width: 90% !important;
         top: 11.5rem !important;
-        font-size: 2.8rem !important;
+        font-size: 4rem !important;
     }
 
     .text1 {
@@ -327,9 +328,9 @@ p {
     .text2 {
         word-spacing: 0.21rem !important;
         height: 5rem;
-        width: 90% !important;
+        width: 75% !important;
         line-height: 1.4rem !important;
-        top: 16rem !important;
+        top: 17rem !important;
         font-size: .8rem !important;
     }
 
@@ -352,8 +353,8 @@ p {
     }
 
     #projects > a {
-        font-size: 2rem !important;
-        transform: translate(2rem, 5rem) !important;
+        font-size: 3rem !important;
+        transform: translate(2rem, 0rem) !important;
     }
 
     .nav-bar-ul li {
@@ -367,7 +368,9 @@ p {
     #home {
         height: 80vh !important;
     }
-
+    #projects{
+        height: 220vh !important;
+    }
     .para {
         left: 2rem !important;
     }
@@ -378,7 +381,7 @@ p {
     .social {
         left: 2rem !important;
         width: 17rem !important;
-        top: 22rem !important;
+        top: 23rem !important;
         height: 2rem !important;
     }
 
@@ -403,14 +406,15 @@ p {
     .about-me p {
         word-spacing: 0.21rem !important;
         height: 4rem;
-        width: 17rem !important;
-        line-height: 1rem !important;
+        width: 25rem !important;
+        line-height: 1.1rem !important;
         top: 12rem !important;
-        font-size: .5rem !important;
+        font-size: .8rem !important;
     }
 
     .about-me {
-        left: 6% !important;
+        width: 90% !important;
+        left: 10% !important;
         height: 55% !important;
         flex-direction: row;
         top: 17% !important;
@@ -419,48 +423,492 @@ p {
         height: 80% !important;
     }
     .technologies{
-        left: 6% !important;
-        bottom: 10% !important;
+        left: 10% !important;
+        bottom: 6% !important;
     }
     .technologies>a{
         font-size: 1rem !important;
     }
     #astro{
-        top: 52% !important;
+        top: 54% !important;
         left: -50% !important;
-        height: 8% !important;
+        height: 7% !important;
     }
     #animated-ufo{
-        top: 53% !important;
+        top: 57% !important;
         left: 200% !important;
     }
     #planet-2 {
-
-        top: 75% !important;
-        height: 5% !important;
+        width: 19% !important;
+        top: 77% !important;
+        height: 7% !important;
     }
 
     #planet-3 {
-        top: 65% !important;
-        height: 4% !important;
+        width: 15% !important;
+        top: 67% !important;
+        height: 6% !important;
     }
     #planet{
-        height: 52% !important;
+        height: 65% !important;
     }
     #contact-me{
-        height: 65vh !important;
+        height: 80vh !important;
     }
     form{
         left: 8% !important;
     }
 
 }
-
-
-@media (min-width: 1050px) and (max-width: 1250px) {
+@media (min-width: 751px) and (max-width: 950px){
     .name {
-        font-size: 5rem !important;
+        width: 90% !important;
+        top: 15rem !important;
+        font-size: 4.6rem !important;
     }
+
+    .text1 {
+        top: 10rem !important;
+        font-size: 1.3rem !important;
+    }
+
+    .text2 {
+        word-spacing: 0.21rem !important;
+        height: 5rem;
+        width: 75% !important;
+        line-height: 1.4rem !important;
+        top: 23rem !important;
+        font-size: .8rem !important;
+    }
+    nav{
+        justify-content: space-between !important;
+    }
+    footer {
+        left: 35% !important;
+    }
+
+    .main-context {
+        top: 10rem !important;
+    }
+
+    .main-context > div {
+        height: 15rem !important;
+    }
+
+    .nav-bar-ul {
+        gap: 1rem !important;
+        padding-left: 0;
+
+    }
+
+    #projects > a {
+        font-size: 3rem !important;
+        transform: translate(4rem, 1rem) !important;
+    }
+
+    .nav-bar-ul li {
+        font-size: 1rem !important;
+    }
+
+    .logo {
+        padding-left: 5rem !important;
+    }
+
+    #home {
+        height: 100vh !important;
+    }
+    #projects{
+        height: 220vh !important;
+    }
+    .para {
+        left: 2rem !important;
+    }
+    .circle {
+        height: 12% !important;
+        width: 10% !important;
+    }
+    .social {
+        left: 2rem !important;
+        width: 17rem !important;
+        top: 30rem !important;
+        height: 2rem !important;
+    }
+
+    .animated-ghost {
+        top: 32rem !important;
+        height: 10rem !important;
+        width: 10rem !important;
+    }
+    .moon {
+        height: 31rem !important;
+        width: 30rem !important;
+        left: 0 !important;
+    }
+    #about-me{
+        height: 108vh !important;
+    }
+    #about-me > a {
+        font-size: 3rem !important;
+        top: 0 !important;
+    }
+
+    .about-me p {
+        word-spacing: 0.21rem !important;
+        height: 4rem;
+        width: 25rem !important;
+        line-height: 1.1rem !important;
+        top: 12rem !important;
+        font-size: .8rem !important;
+    }
+
+    .about-me {
+        width: 90% !important;
+        left: 10% !important;
+        height: 55% !important;
+        flex-direction: row;
+        top: 17% !important;
+    }
+    .about-me img{
+        height: 90% !important;
+    }
+    .technologies{
+        left: 10% !important;
+        bottom: 6% !important;
+    }
+    .technologies>a{
+        font-size: 1rem !important;
+    }
+    #astro{
+        top: 54% !important;
+        left: -50% !important;
+        height: 7% !important;
+    }
+    #animated-ufo{
+        top: 57% !important;
+        left: 200% !important;
+    }
+    #planet-2 {
+        width: 19% !important;
+        top: 77% !important;
+        height: 7% !important;
+    }
+
+    #planet-3 {
+        width: 15% !important;
+        top: 67% !important;
+        height: 6% !important;
+    }
+    #planet{
+        height: 65% !important;
+    }
+    #contact-me{
+        height: 80vh !important;
+    }
+    form{
+        left: 8% !important;
+    }
+}
+@media (min-width: 951px) and (max-width: 1050px){
+    .name {
+        width: 90% !important;
+        top: 15rem !important;
+        font-size: 5.5rem !important;
+    }
+
+    .text1 {
+        top: 10rem !important;
+        font-size: 1.3rem !important;
+    }
+
+    .text2 {
+        word-spacing: 0.21rem !important;
+        height: 5rem;
+        width: 75% !important;
+        line-height: 1.4rem !important;
+        top: 23rem !important;
+        font-size: .8rem !important;
+    }
+    nav{
+        justify-content: space-between !important;
+    }
+    footer {
+        left: 35% !important;
+    }
+
+    .main-context {
+        top: 10rem !important;
+    }
+
+    .main-context > div {
+        height: 15rem !important;
+    }
+
+    .nav-bar-ul {
+        gap: 1rem !important;
+        padding-left: 0;
+
+    }
+
+    #projects > a {
+        font-size: 3rem !important;
+        transform: translate(4rem, 1rem) !important;
+    }
+
+    .nav-bar-ul li {
+        font-size: 1rem !important;
+    }
+
+    .logo {
+        padding-left: 5rem !important;
+    }
+
+    #home {
+        height: 100vh !important;
+    }
+    #projects{
+        height: 220vh !important;
+    }
+    .para {
+        left: 6rem !important;
+    }
+    .circle {
+        height: 14% !important;
+        width: 10% !important;
+    }
+    .social {
+        left: 6rem !important;
+        width: 22rem !important;
+        top: 35rem !important;
+        height: 3.5rem !important;
+    }
+
+    .animated-ghost {
+        top: 32rem !important;
+        height: 10rem !important;
+        width: 10rem !important;
+    }
+    .moon {
+        height: 31rem !important;
+        width: 30rem !important;
+        left: 0 !important;
+    }
+    #about-me{
+        height: 108vh !important;
+    }
+    #about-me > a {
+        font-size: 3rem !important;
+        top: 0 !important;
+    }
+
+    .about-me p {
+        word-spacing: 0.21rem !important;
+        height: 4rem;
+        width: 25rem !important;
+        line-height: 1.1rem !important;
+        top: 12rem !important;
+        font-size: .8rem !important;
+    }
+
+    .about-me {
+        width: 90% !important;
+        left: 10% !important;
+        height: 55% !important;
+        flex-direction: row;
+        top: 17% !important;
+    }
+    .about-me img{
+        height: 90% !important;
+    }
+    .technologies{
+        left: 10% !important;
+        bottom: 6% !important;
+    }
+    .technologies>a{
+        font-size: 1rem !important;
+    }
+    #astro{
+        top: 54% !important;
+        left: -50% !important;
+        height: 7% !important;
+    }
+    #animated-ufo{
+        top: 57% !important;
+        left: 200% !important;
+    }
+    #planet-2 {
+        width: 19% !important;
+        top: 77% !important;
+        height: 7% !important;
+    }
+
+    #planet-3 {
+        width: 15% !important;
+        top: 67% !important;
+        height: 6% !important;
+    }
+    #planet{
+        height: 65% !important;
+    }
+    #contact-me{
+        height: 80vh !important;
+    }
+    form{
+        left: 8% !important;
+    }
+}
+@media (min-width: 1050px) and (max-width: 1250px) {
+
+    .name {
+        width: 90% !important;
+        top: 15rem !important;
+        font-size: 6rem !important;
+    }
+
+    .text1 {
+        top: 10rem !important;
+        font-size: 1.3rem !important;
+    }
+
+    .text2 {
+        word-spacing: 0.21rem !important;
+        height: 5rem;
+        width: 60% !important;
+        line-height: 1.4rem !important;
+        top: 23rem !important;
+        font-size: 1rem !important;
+    }
+
+     nav{
+         justify-content: space-between !important;
+     }
+    footer {
+        left: 35% !important;
+    }
+
+    .main-context {
+        top: 10rem !important;
+    }
+
+    .main-context > div {
+        height: 15rem !important;
+    }
+
+    .nav-bar-ul {
+        gap: 1rem !important;
+        padding-left: 0;
+
+    }
+
+    #projects > a {
+        font-size: 4rem !important;
+        transform: translate(7rem, 1rem) !important;
+    }
+
+    .nav-bar-ul li {
+        font-size: 1rem !important;
+    }
+
+    .logo {
+        padding-left: 5rem !important;
+    }
+
+    #home {
+        height: 100vh !important;
+    }
+    #projects{
+        height: 140vh !important;
+    }
+    .para {
+        left: 7rem !important;
+    }
+    .circle {
+        height: 10% !important;
+        width: 6% !important;
+    }
+    .social {
+        left: 8rem !important;
+        width: 22rem !important;
+        top: 35rem !important;
+        height: 3.5rem !important;
+    }
+
+    .animated-ghost {
+        top: 35rem !important;
+        height: 13rem !important;
+        width: 13rem !important;
+    }
+    .moon {
+        height: 35rem !important;
+        width: 34rem !important;
+        left: 0 !important;
+    }
+    #about-me{
+        height: 140vh !important;
+    }
+    #about-me > a {
+        font-size: 4rem !important;
+        top: 0 !important;
+    }
+
+    .about-me p {
+        word-spacing: 0.21rem !important;
+        height: 4rem;
+        width: 40rem !important;
+        line-height: 1.5rem !important;
+        top: 12rem !important;
+        font-size: 1rem !important;
+    }
+
+    .about-me {
+        width: 90% !important;
+        left: 10% !important;
+        height: 55% !important;
+        flex-direction: row;
+        top: 17% !important;
+    }
+    .about-me img{
+        height: 80% !important;
+    }
+    .technologies{
+        left: 10% !important;
+        bottom: 6% !important;
+    }
+    .technologies>a{
+        font-size: 2.5rem !important;
+    }
+    #astro{
+        top: 40% !important;
+        left: 0% !important;
+        height: 8% !important;
+    }
+    #animated-ufo{
+        top: 45% !important;
+        left: 100% !important;
+    }
+    #planet-2 {
+        width: 19% !important;
+        top: 65% !important;
+        height: 10% !important;
+    }
+
+    #planet-3 {
+        width: 15% !important;
+        top: 50% !important;
+        height: 9% !important;
+    }
+    #planet{
+        height: 75% !important;
+    }
+    #contact-me{
+        height: 80vh !important;
+    }
+    form{
+        left: 12% !important;
+    }
+    #svg{
+        display: inline-block !important;
+    }
+
 
 }
 
@@ -611,6 +1059,8 @@ footer {
     line-height: 1.8rem;
     top: 26rem;
 }
+
+
 
 @keyframes show {
     0% {
@@ -1200,7 +1650,7 @@ span {
     align-items: center;
     height: 100%;
     width: 100%;
-    justify-content: center;
+
 }
 
 .social li img {
@@ -1554,7 +2004,7 @@ form {
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 6%;
-    left: 15%;
+    left: 12%;
     margin: 10% auto;
 
     border-radius: 20px;
@@ -1642,5 +2092,5 @@ svg {
 
 
 #svg {
-    display: none;
+    display: inline-block;
 }
