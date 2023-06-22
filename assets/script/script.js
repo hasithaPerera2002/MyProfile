@@ -5,7 +5,7 @@ $(document).ready(()=>{
         {
             $('.visible').css({display:'none'})
             $('.para').css({display: 'block'})
-        }, 100);
+        }, 5);
 })
 
 $(window).scroll(()=>{
