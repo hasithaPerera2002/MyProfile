@@ -1,0 +1,83 @@
+section:first-child{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+
+}
+section>section{
+    width: 300%;
+    position: absolute;
+    top: 75%;
+    height: 34%;
+    display: flex;
+}
+section>main{
+    position: absolute;
+    bottom: 25%;
+    height: 45%;
+    width: 300%;
+    display: flex;
+
+}
+section>section>div{
+    flex: 1;
+}
+section>main>div{
+    flex: 1;
+}
+section>div:first-child{
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    z-index: -1;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.car{
+    z-index: 1;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 57%;
+    bottom: 0;
+    height: 30%;
+    width: 40%;
+}
+.wheel{
+    border-radius: 100%;
+    top: 79%;
+    position: absolute;
+    height: 15%;
+    width: 8%;
+    animation:wheelRotate 1s linear  infinite;
+}
+section>div:nth-child(5){
+    left: 58%;
+}
+section>div:nth-child(6){
+    left: 33.5%;
+}
+
+@keyframes wheelRotate {
+    from{
+        transform: rotate(0deg);
+    }to{
+    transform: rotate(360deg);
+         }
+}
+.moving{
+    animation:roadTravel 3s linear infinite ;
+}
+@keyframes roadTravel {
+    from{
+       transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-60%);
+    }
+}

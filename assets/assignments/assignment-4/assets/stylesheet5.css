@@ -1,0 +1,42 @@
+main {
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    border: 2px solid mediumvioletred;
+    overflow: hidden;
+}
+
+section {
+    width: 2800px;
+    height: 500px;
+    border: 2px solid mediumvioletred;
+    display: flex;
+
+}
+
+div {
+    flex: 1;
+
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.slideshow {
+    animation: slides 5s infinite;
+}
+
+@keyframes slides {
+    0% {transform: translateZ(1px);
+    }
+    100% {
+        transform: translateZ(100px);
+    }
+}

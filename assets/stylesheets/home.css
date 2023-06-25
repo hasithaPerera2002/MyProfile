@@ -1,6 +1,10 @@
 * {
     margin: 0;
 }
+html{
+    scroll-behavior: smooth;
+
+}
 
 body {
 
@@ -49,6 +53,7 @@ p {
     }
 
     .main-context {
+        grid-template-columns: repeat(1, 18rem) !important;
         top: 3rem !important;
     }
 
@@ -103,9 +108,11 @@ p {
         top: 12rem !important;
         font-size: .5rem !important;
     }
-    #about-me{
+
+    #about-me {
         height: 108vh !important;
     }
+
     #about-me > a {
         font-size: 2rem !important;
         top: 0 !important;
@@ -125,24 +132,30 @@ p {
         flex-direction: column;
         top: 7% !important;
     }
-    .about-me img{
+
+    .about-me img {
         height: 50% !important;
     }
-    .technologies{
+
+    .technologies {
         bottom: 20% !important;
     }
-    .technologies>a{
+
+    .technologies > a {
         font-size: 1rem !important;
     }
-    #astro{
+
+    #astro {
         top: 50% !important;
         left: -50% !important;
         height: 5% !important;
     }
-    #animated-ufo{
+
+    #animated-ufo {
         top: 53% !important;
         left: 290% !important;
     }
+
     #planet-2 {
 
         top: 75% !important;
@@ -153,15 +166,19 @@ p {
         top: 65% !important;
         height: 2% !important;
     }
-    #planet{
+
+    #planet {
         height: 50% !important;
     }
-    #contact-me{
+
+    #contact-me {
         height: 65vh !important;
     }
-    form{
+
+    form {
         left: 6% !important;
     }
+
     /*#planet>img{*/
     /*    height: 50% !important;*/
     /*}*/
@@ -186,6 +203,7 @@ p {
         top: 16rem !important;
         font-size: .7rem !important;
     }
+
     .circle {
         height: 9% !important;
         width: 14% !important;
@@ -229,6 +247,7 @@ p {
     .para {
         left: 2rem !important;
     }
+
     .social {
         left: 2rem !important;
         width: 17rem !important;
@@ -241,14 +260,17 @@ p {
         height: 7rem !important;
         width: 7rem !important;
     }
+
     .moon {
         height: 31rem !important;
         width: 30rem !important;
         left: 0 !important;
     }
-    #about-me{
+
+    #about-me {
         height: 108vh !important;
     }
+
     #about-me > a {
         font-size: 3rem !important;
         top: 0 !important;
@@ -269,25 +291,31 @@ p {
         flex-direction: row;
         top: 17% !important;
     }
-    .about-me img{
+
+    .about-me img {
         height: 80% !important;
     }
-    .technologies{
+
+    .technologies {
         left: 6% !important;
         bottom: 10% !important;
     }
-    .technologies>a{
+
+    .technologies > a {
         font-size: 1rem !important;
     }
-    #astro{
+
+    #astro {
         top: 52% !important;
         left: -50% !important;
         height: 8% !important;
     }
-    #animated-ufo{
+
+    #animated-ufo {
         top: 53% !important;
         left: 200% !important;
     }
+
     #planet-2 {
 
         top: 75% !important;
@@ -298,15 +326,19 @@ p {
         top: 65% !important;
         height: 4% !important;
     }
-    #planet{
+
+    #planet {
         height: 52% !important;
     }
-    #contact-me{
+
+    #contact-me {
         height: 65vh !important;
     }
-    form{
+
+    form {
         left: 8% !important;
     }
+
     /*#planet>img{*/
     /*    height: 50% !important;*/
     /*}*/
@@ -368,16 +400,20 @@ p {
     #home {
         height: 80vh !important;
     }
-    #projects{
+
+    #projects {
         height: 220vh !important;
     }
+
     .para {
         left: 2rem !important;
     }
+
     .circle {
         height: 10% !important;
         width: 10% !important;
     }
+
     .social {
         left: 2rem !important;
         width: 17rem !important;
@@ -390,14 +426,17 @@ p {
         height: 7rem !important;
         width: 7rem !important;
     }
+
     .moon {
         height: 31rem !important;
         width: 30rem !important;
         left: 0 !important;
     }
-    #about-me{
+
+    #about-me {
         height: 108vh !important;
     }
+
     #about-me > a {
         font-size: 3rem !important;
         top: 0 !important;
@@ -419,25 +458,31 @@ p {
         flex-direction: row;
         top: 17% !important;
     }
-    .about-me img{
+
+    .about-me img {
         height: 80% !important;
     }
-    .technologies{
+
+    .technologies {
         left: 10% !important;
         bottom: 6% !important;
     }
-    .technologies>a{
+
+    .technologies > a {
         font-size: 1rem !important;
     }
-    #astro{
+
+    #astro {
         top: 54% !important;
         left: -50% !important;
         height: 7% !important;
     }
-    #animated-ufo{
+
+    #animated-ufo {
         top: 57% !important;
         left: 200% !important;
     }
+
     #planet-2 {
         width: 19% !important;
         top: 77% !important;
@@ -449,18 +494,22 @@ p {
         top: 67% !important;
         height: 6% !important;
     }
-    #planet{
+
+    #planet {
         height: 65% !important;
     }
-    #contact-me{
+
+    #contact-me {
         height: 80vh !important;
     }
-    form{
+
+    form {
         left: 8% !important;
     }
 
 }
-@media (min-width: 751px) and (max-width: 950px){
+
+@media (min-width: 751px) and (max-width: 950px) {
     .name {
         width: 90% !important;
         top: 15rem !important;
@@ -480,9 +529,11 @@ p {
         top: 23rem !important;
         font-size: .8rem !important;
     }
-    nav{
+
+    nav {
         justify-content: space-between !important;
     }
+
     footer {
         left: 35% !important;
     }
@@ -517,16 +568,20 @@ p {
     #home {
         height: 100vh !important;
     }
-    #projects{
+
+    #projects {
         height: 220vh !important;
     }
+
     .para {
         left: 2rem !important;
     }
+
     .circle {
         height: 12% !important;
         width: 10% !important;
     }
+
     .social {
         left: 2rem !important;
         width: 17rem !important;
@@ -539,14 +594,17 @@ p {
         height: 10rem !important;
         width: 10rem !important;
     }
+
     .moon {
         height: 31rem !important;
         width: 30rem !important;
         left: 0 !important;
     }
-    #about-me{
+
+    #about-me {
         height: 108vh !important;
     }
+
     #about-me > a {
         font-size: 3rem !important;
         top: 0 !important;
@@ -568,25 +626,31 @@ p {
         flex-direction: row;
         top: 17% !important;
     }
-    .about-me img{
+
+    .about-me img {
         height: 90% !important;
     }
-    .technologies{
+
+    .technologies {
         left: 10% !important;
         bottom: 6% !important;
     }
-    .technologies>a{
+
+    .technologies > a {
         font-size: 1rem !important;
     }
-    #astro{
+
+    #astro {
         top: 54% !important;
         left: -50% !important;
         height: 7% !important;
     }
-    #animated-ufo{
+
+    #animated-ufo {
         top: 57% !important;
         left: 200% !important;
     }
+
     #planet-2 {
         width: 19% !important;
         top: 77% !important;
@@ -598,17 +662,21 @@ p {
         top: 67% !important;
         height: 6% !important;
     }
-    #planet{
+
+    #planet {
         height: 65% !important;
     }
-    #contact-me{
+
+    #contact-me {
         height: 80vh !important;
     }
-    form{
+
+    form {
         left: 8% !important;
     }
 }
-@media (min-width: 951px) and (max-width: 1050px){
+
+@media (min-width: 951px) and (max-width: 1050px) {
     .name {
         width: 90% !important;
         top: 15rem !important;
@@ -628,15 +696,19 @@ p {
         top: 23rem !important;
         font-size: .8rem !important;
     }
-    nav{
+
+    nav {
         justify-content: space-between !important;
     }
+
     footer {
         left: 35% !important;
     }
 
     .main-context {
-        grid-template-columns: repeat(1,18rem) !important;
+
+
+        grid-template-columns: repeat(1, 18rem) !important;
         top: 10rem !important;
     }
 
@@ -666,16 +738,20 @@ p {
     #home {
         height: 40vh !important;
     }
-    #projects{
+
+    #projects {
         height: 220vh !important;
     }
+
     .para {
         left: 6rem !important;
     }
+
     .circle {
         height: 4% !important;
         width: 7% !important;
     }
+
     .social {
         left: 6rem !important;
         width: 22rem !important;
@@ -688,15 +764,18 @@ p {
         height: 10rem !important;
         width: 10rem !important;
     }
+
     .moon {
         top: 5% !important;
         height: 31rem !important;
         width: 30rem !important;
         left: 0 !important;
     }
-    #about-me{
+
+    #about-me {
         height: 108vh !important;
     }
+
     #about-me > a {
         font-size: 3rem !important;
         top: 0 !important;
@@ -718,25 +797,31 @@ p {
         flex-direction: row;
         top: 17% !important;
     }
-    .about-me img{
+
+    .about-me img {
         height: 90% !important;
     }
-    .technologies{
+
+    .technologies {
         left: 10% !important;
         bottom: 6% !important;
     }
-    .technologies>a{
+
+    .technologies > a {
         font-size: 1rem !important;
     }
-    #astro{
+
+    #astro {
         top: 54% !important;
         left: -50% !important;
         height: 7% !important;
     }
-    #animated-ufo{
+
+    #animated-ufo {
         top: 57% !important;
         left: 200% !important;
     }
+
     #planet-2 {
         width: 19% !important;
         top: 77% !important;
@@ -748,16 +833,20 @@ p {
         top: 67% !important;
         height: 3% !important;
     }
-    #planet{
+
+    #planet {
         height: 65% !important;
     }
-    #contact-me{
+
+    #contact-me {
         height: 50vh !important;
     }
-    form{
+
+    form {
         left: 8% !important;
     }
 }
+
 @media (min-width: 1050px) and (max-width: 1250px) {
 
     .name {
@@ -780,9 +869,10 @@ p {
         font-size: 1rem !important;
     }
 
-     nav{
-         justify-content: space-between !important;
-     }
+    nav {
+        justify-content: space-between !important;
+    }
+
     footer {
         left: 35% !important;
     }
@@ -818,16 +908,20 @@ p {
     #home {
         height: 100vh !important;
     }
-    #projects{
+
+    #projects {
         height: 140vh !important;
     }
+
     .para {
         left: 7rem !important;
     }
+
     .circle {
         height: 10% !important;
         width: 6% !important;
     }
+
     .social {
         left: 8rem !important;
         width: 22rem !important;
@@ -840,14 +934,17 @@ p {
         height: 13rem !important;
         width: 13rem !important;
     }
+
     .moon {
         height: 35rem !important;
         width: 34rem !important;
         left: 0 !important;
     }
-    #about-me{
+
+    #about-me {
         height: 140vh !important;
     }
+
     #about-me > a {
         font-size: 4rem !important;
         top: 0 !important;
@@ -869,25 +966,31 @@ p {
         flex-direction: row;
         top: 17% !important;
     }
-    .about-me img{
+
+    .about-me img {
         height: 80% !important;
     }
-    .technologies{
+
+    .technologies {
         left: 10% !important;
         bottom: 6% !important;
     }
-    .technologies>a{
+
+    .technologies > a {
         font-size: 2.5rem !important;
     }
-    #astro{
+
+    #astro {
         top: 40% !important;
         left: 0 !important;
         height: 8% !important;
     }
-    #animated-ufo{
+
+    #animated-ufo {
         top: 45% !important;
         left: 100% !important;
     }
+
     #planet-2 {
         width: 19% !important;
         top: 65% !important;
@@ -899,16 +1002,20 @@ p {
         top: 50% !important;
         height: 9% !important;
     }
-    #planet{
+
+    #planet {
         height: 75% !important;
     }
-    #contact-me{
+
+    #contact-me {
         height: 80vh !important;
     }
-    form{
+
+    form {
         left: 12% !important;
     }
-    #svg{
+
+    #svg {
         display: inline-block !important;
     }
 
@@ -1062,7 +1169,6 @@ footer {
     line-height: 1.8rem;
     top: 26rem;
 }
-
 
 
 @keyframes show {
@@ -1461,7 +1567,7 @@ span {
     display: grid;
     position: absolute;
     width: 80%;
-    grid-template-columns: repeat(2,9rem);
+    grid-template-columns: repeat(2, 9rem);
     height: 90%;
     justify-content: space-evenly;
 
@@ -1475,9 +1581,7 @@ span {
 }
 
 
-.main-context > div:first-child .text {
-    color: whitesmoke;
-}
+
 
 .main-context > div:nth-child(5) {
     margin-top: 3rem;
@@ -1733,9 +1837,6 @@ span {
     0 0 100px #D3D3D3;
 }
 
-.social > ul > li:hover {
-
-}
 
 .textBox > span {
     color: black;
@@ -1746,12 +1847,12 @@ span {
     0 0 60px #ccf033;
 }
 
-.main-context > div:first-child .text {
+.text {
     color: #ccf033;
     background: black;
 }
 
-
+/*
 .main-context > div:nth-child(2) .text {
     color: #ccf033;
     background: black;
@@ -1765,7 +1866,7 @@ span {
 .main-context > div:nth-child(4) .text {
     color: #ccf033;
     background: black;
-}
+}*/
 
 
 .animated-ghost {
@@ -1901,10 +2002,10 @@ span {
 
 @keyframes tilting {
     from {
-        transform: translateY(.6rem) rotate(2deg);
+        transform: translateY(1rem) rotate(2deg);
     }
     to {
-        transform: translateX(0) rotate(-2deg);
+        transform:  rotate(-5deg) translateY(-1rem);
     }
 }
 
@@ -1914,7 +2015,6 @@ span {
 }
 
 #planet-3 {
-
     mix-blend-mode: lighten;
     top: 55%;
     position: absolute;
@@ -1923,13 +2023,13 @@ span {
     width: 15%;
     transform-style: preserve-3d;
     height: 7%;
-    animation: tilting 2s infinite alternate-reverse;
+    animation: tilting 1s infinite alternate-reverse;
 
 }
 
 #planet-3 > img {
     width: 100%;
-    height: 100%;
+    height: 80%;
 }
 
 .technologies {
@@ -2095,4 +2195,32 @@ svg {
 
 #svg {
     display: inline-block;
+}
+.view-assignment{
+    background-color: black;
+    -webkit-text-stroke: 0.1px  black;
+    color: #ccf033;
+
+    text-decoration: none;
+}
+
+.view-assignment:hover{
+    text-shadow: 0 0 20px #545bb9,
+    0 0 20px#545bb9,
+    0 0 20px #545bb9,
+    0 0 20px #545bb9;
+    color: #a1adff;
+}
+
+.link-click{
+    background-color: #000;
+
+    color: #ccf033;
+}
+.link-click:hover{
+    text-shadow: 0 0 20px #545bb9,
+    0 0 20px#545bb9,
+    0 0 20px #545bb9,
+    0 0 20px #545bb9;
+    color: #a1f4ff;
 }

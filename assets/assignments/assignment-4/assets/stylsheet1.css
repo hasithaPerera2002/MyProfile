@@ -1,0 +1,34 @@
+div{
+    position: relative;
+    background-color: rebeccapurple;
+    width: 22vw;
+    height: 5vh;
+   left: -18vw;
+    display: flex;
+    justify-content: space-between;
+    transition: all 2s;
+    box-shadow: 7px 10px 10px 1px black;
+}
+main{
+    position: absolute;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+div>h3{
+position: relative;
+    margin-left: 5px;
+    color: white;
+    display: flex;
+    align-items:  center;
+
+}
+div:hover{
+    left: -0.5vw;
+}
+img{
+    position: absolute;
+    height: 100%;
+    left: 80%;
+}

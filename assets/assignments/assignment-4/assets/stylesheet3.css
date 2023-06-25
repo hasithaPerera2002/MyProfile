@@ -1,0 +1,58 @@
+div {
+
+    position: absolute;
+    height: 100px;
+    width: 50px;
+    background-color: darkred;
+    border-radius: 20%;
+    margin: 0;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+}
+
+.rotated {
+
+    background-color: deeppink;
+    animation: myMove 10s infinite,
+                myRotate 1s infinite;
+
+}
+
+@keyframes myMove {
+
+    0% {
+        left: 0;
+        top: 0;
+        background-color: blue;
+    }
+    25% {
+        left: 90%;
+        top: 0;
+        background-color: green;
+    }
+    50% {
+        left: 90%;
+        top: 80%;
+        background-color: yellow;
+    }
+    75% {
+        top: 80%;
+        left: 0;
+    }
+    100% {
+        top: 0;
+        left: 0;
+        background-color: black;
+    }
+}
+    @keyframes myRotate {
+        100% {
+            transform: rotate(360deg) ;
+
+        }
+
+}
+

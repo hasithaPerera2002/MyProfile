@@ -2,11 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af5c1846-572f-49e6-92b6-306a4a1df1a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/video/Item CRUD Operations with JS.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/video/JS QUE.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/video/KITT vs JS.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-3/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/buddha-1910195_1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/car/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/car/city.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/car/road.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/car/sky.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/car/wheel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/global.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/home (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/mandalas-g64b1c4c2f_1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/meditation-1384758_1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/monkey-786858_1280 (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/monkey-786858_1280.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/pending.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/students.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/stylesheet2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/stylesheet3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/stylesheet4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/stylesheet5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/stylesheet6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/stylsheet1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/index5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/index6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/script/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/script/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/stylesheets/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -19,8 +45,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -47,7 +73,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projects_IJSE/InternetTechnologies/assignment_9" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/assignments/assignment-4" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -55,12 +81,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyProfile\assets\assignments\assignment-4" />
+      <recent name="E:\MyProfile\assets\assignments\assignment-1\assets" />
+      <recent name="E:\MyProfile\assets\assignments\assignment-1" />
+      <recent name="E:\MyProfile\assets\assignments" />
       <recent name="E:\MyProfile\assets\img" />
-      <recent name="E:\MyProfile\assets\video" />
-      <recent name="E:\MyProfile\assets" />
-      <recent name="E:\MyProfile\assets\project_img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\MyProfile\assets\assignments\assignment-3" />
       <recent name="E:\MyProfile\assets\img" />
       <recent name="E:\MyProfile\assets\script" />
       <recent name="E:\MyProfile\assets\fonts" />
@@ -131,7 +159,12 @@
       <workItem from="1685155681033" duration="3952000" />
       <workItem from="1685184527871" duration="275000" />
       <workItem from="1687354432262" duration="5807000" />
-      <workItem from="1687419423958" duration="1861000" />
+      <workItem from="1687419423958" duration="2482000" />
+      <workItem from="1687488829258" duration="2530000" />
+      <workItem from="1687516282528" duration="2995000" />
+      <workItem from="1687600964013" duration="302000" />
+      <workItem from="1687603730474" duration="341000" />
+      <workItem from="1687711974172" duration="7175000" />
     </task>
     <task id="LOCAL-00002" summary="second commit">
       <created>1681860587773</created>
@@ -266,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684933031857</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="15">
+      <created>1687421321654</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1687421321654</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

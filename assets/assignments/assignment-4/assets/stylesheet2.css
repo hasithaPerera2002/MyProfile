@@ -1,0 +1,48 @@
+div{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #de7a93;
+    border-radius: 100%;
+    border: 20px solid green;
+    border-top: 20px solid blue;
+}
+div>h2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: max-content;
+    height:  max-content;
+    z-index: 3;
+}
+div:hover{
+    transform: rotate(360deg);
+    transition: all 2s;
+}
+div:hover h2{
+    transform: rotate(-360deg);
+    transition: all 2s;
+}
+div::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(147, 249, 185, 0.73);
+    content: " ";
+    border-radius: 100%;
+}
+div:hover::after{
+    transform: rotate(-360deg);
+    transition: all 2s;
+}

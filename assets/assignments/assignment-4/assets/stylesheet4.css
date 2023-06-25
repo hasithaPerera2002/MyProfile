@@ -1,0 +1,32 @@
+div {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 100%;
+    border: 5px solid teal;
+}
+
+.drop {
+    animation: drops 1s infinite;
+   float: top;
+}
+
+@keyframes drops {
+    0% {
+        height: 100px;
+        width: 100px;
+
+    }
+    100% {
+        width: 300px;
+        height: 300px;
+        opacity: 0;
+        border-color: teal;
+
+    }
+}
