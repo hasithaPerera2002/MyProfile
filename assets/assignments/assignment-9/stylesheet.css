@@ -1,0 +1,35 @@
+body{
+    height: 100vh;
+}
+.main-div{
+    height: 2rem;
+    width: 50rem;
+    border: 1px solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+}
+.main-div>div{
+    flex: 1;
+    border: 1px solid black;
+}
+.light{
+
+}
+.btn{
+
+  flex: 1;
+
+}
+.btn-panel{
+    display: flex;
+    left: 45vw;
+    position: absolute;
+    top: 55vh;
+    height: 3rem;
+    width: 15vw;
+}

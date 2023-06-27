@@ -2,38 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af5c1846-572f-49e6-92b6-306a4a1df1a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-3/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/buddha-1910195_1920.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/car/car.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/car/city.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/car/road.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/car/sky.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/car/wheel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/global.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/home (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/mandalas-g64b1c4c2f_1920.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/meditation-1384758_1920.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/monkey-786858_1280 (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/monkey-786858_1280.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/pending.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/icons/students.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/stylesheet2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/stylesheet3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/stylesheet4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/stylesheet5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/stylesheet6.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/assets/stylsheet1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/index3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/index4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/index5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-4/index6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-10/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-10/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-10/controller/CustomerController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-10/controller/DashboardController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-10/controller/ItemController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-10/controller/OrderViewsController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-10/controller/PurchaseOrderController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-10/db/DB.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-10/images/1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-10/images/10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-10/images/2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-10/images/3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-10/images/4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-10/images/5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-10/images/6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-10/images/7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-10/images/8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-10/images/9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-10/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-10/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-10/model/Customer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-10/model/Item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-10/model/Order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-10/model/OrderDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-10/util/alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-10/util/validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-8/assets/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-8/assets/img/run.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-8/assets/img/school-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-8/assets/js/jquery-3.6.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-8/assets/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-8/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-9/assets/Knight Rider Sms ! Knight Rider ! Theme.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-9/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-9/jquery-3.6.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-9/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/assignment-9/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/js-assignment-10-main/js-assignment-10-main/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/js-assignment-10-main/js-assignment-10-main/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/js-assignment-10-main/js-assignment-10-main/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/js-assignment-10-main/js-assignment-10-main/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/js-assignment-10-main/js-assignment-10-main/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/js-assignment-10-main/js-assignment-10-main/Calculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/js-assignment-10-main/js-assignment-10-main/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/js-assignment-10-main/js-assignment-10-main/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/assignments/js-assignment-10-main/js-assignment-10-main/js/javaScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Gcalctool-basic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/video/videoplayback.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheets/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +90,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/assignments/assignment-4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -81,11 +98,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\MyProfile\assets\assignments\assignment-4" />
-      <recent name="E:\MyProfile\assets\assignments\assignment-1\assets" />
-      <recent name="E:\MyProfile\assets\assignments\assignment-1" />
-      <recent name="E:\MyProfile\assets\assignments" />
       <recent name="E:\MyProfile\assets\img" />
+      <recent name="E:\MyProfile\assets\assignments" />
+      <recent name="E:\MyProfile\assets\assignments\assignment-8" />
+      <recent name="E:\MyProfile\assets\assignments\assignment-9" />
+      <recent name="E:\MyProfile\assets\assignments\assignment-4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\MyProfile\assets\assignments\assignment-3" />
@@ -164,7 +181,9 @@
       <workItem from="1687516282528" duration="2995000" />
       <workItem from="1687600964013" duration="302000" />
       <workItem from="1687603730474" duration="341000" />
-      <workItem from="1687711974172" duration="7175000" />
+      <workItem from="1687711974172" duration="8093000" />
+      <workItem from="1687753894925" duration="1189000" />
+      <workItem from="1687840090959" duration="2127000" />
     </task>
     <task id="LOCAL-00002" summary="second commit">
       <created>1681860587773</created>
@@ -306,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687421321654</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="16">
+      <created>1687719864877</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1687719864877</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,6 +354,7 @@
     <MESSAGE value="13" />
     <MESSAGE value="14" />
     <MESSAGE value="15" />
-    <option name="LAST_COMMIT_MESSAGE" value="15" />
+    <MESSAGE value="16" />
+    <option name="LAST_COMMIT_MESSAGE" value="16" />
   </component>
 </project>
